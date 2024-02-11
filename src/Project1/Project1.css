@@ -1,0 +1,440 @@
+/* Navigation.css */
+.navigation {
+  position: fixed;
+  top: 100px;
+  left: 40px;
+  width: 180px;
+  font-size: 13px;
+  /* 其他样式 */
+}
+
+.navigation.show {
+  top: 0;
+}
+
+.navigation-content {
+  padding: 20px;
+  /* 其他样式 */
+}
+
+.navigation a {
+  display: block;
+  color: #AAAAAA;
+  text-decoration: none;
+  padding: 10px 0;
+  /* 其他样式 */
+}
+
+.navigation a.active {
+  color: #3C8CDD;
+  /* 其他样式 */
+}
+
+
+
+
+/*Background.css */
+#background {
+  background-color: #F7FAFD;
+  letter-spacing: 0.1em;
+}
+
+.Project1-header {
+  text-align: center;
+}
+
+.Project1-header2 {
+  display: flex;
+  margin: 90px;
+  margin-top: 60px;
+}
+
+.Project1-sidebar {
+  flex: 2;
+  padding: 20px;
+  margin-left: 80px;
+}
+
+.Project1-background {
+  flex: 3;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 80px;
+}
+
+.Project1-sidebar h1 {
+  margin: 10px;
+}
+
+.Project1-sidebar p {
+  margin: 10px;
+  margin-top: 20px;
+  color: #666;
+}
+
+.Project1-sidebar button {
+  margin: 10px;
+  margin-top: 20px;
+  padding: 8px 12px;
+  background-color: #E8F2FC;
+  color: #3C8CDD;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.Project1-sidebar button:hover {
+  background-color: #D1E5FA;
+}
+
+.Project1-background h2 {
+  margin-bottom: 20px;
+  font-size: medium;
+  color: #3C8CDD;
+  font-weight: bold;
+}
+
+.Project1-background p {
+  line-height: 1.6;
+}
+
+.Designprogress {
+  margin-bottom: 150px;
+}
+
+
+
+/* PrototypeSection.css */
+#Prototype {
+  letter-spacing: 0.1em;
+  background-color: #F7FAFD;
+}
+
+.Prototype-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.Prototype-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Prototype-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.Prototype-list {
+  list-style-type: circle;
+}
+
+.Prototype-list-item {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #707070;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.Prototype-scenarios {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.scenariotitle {
+  color: #3C8CDD;
+  padding: 40px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+.scenariocontent {
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 25px;
+}
+
+
+/* ResearchSection.css */
+#research {
+  letter-spacing: 0.1em;
+  background-color: #F7FAFD;
+}
+
+.research-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.research-container2 {
+  margin: 10%;
+}
+
+.research-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.research-header {
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.research-sub-header {
+  color: #454545;
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+.research-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.research-image-area {
+  border: 1px solid #ccc;
+  height: 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  font-size: 16px;
+}
+
+.research-list {
+  list-style-type: circle;
+  margin-bottom: 40px;
+}
+
+.research-list-item {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #707070;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+
+/* IdeationSection.css */
+#ideation {
+  letter-spacing: 0.1em;
+  background-color: #F7FAFD;
+}
+
+.ideation-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.ideation-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ideation-header {
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.ideation-sub-header {
+  color: #454545;
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+.ideation-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.ideation-list {
+  list-style-type: circle;
+}
+
+.ideation-list-item {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #707070;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+
+/* FinalSection.css */
+#final {
+  letter-spacing: 0.1em;
+  background-color: #F7FAFD;
+}
+
+.final-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.final-image-area {
+  margin: 40px 20px 40px 0px;
+}
+
+.final-container2 {
+  margin: 10%;
+}
+
+.render {
+  margin-bottom: 20px;
+}
+
+.final-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.final-header {
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+.final-sub-header {
+  color: #454545;
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+.Visualdesign {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.final-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.final-list {
+  list-style-type: circle;
+}
+
+.final-list-item {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #707070;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.final-scenarios {
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.video-player {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-radius: 12px;
+}
+
+.final-us2 {
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+.final-video1 {
+  margin-top: 40px;
+}
+
+.final-video2 {
+  display: flex;
+}
+
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev {
+  width: 5%;
+}
+
+/* DiscussionSection.css */
+#discussion {
+  letter-spacing: 0.1em;
+  background-color: #F7FAFD;
+  padding-bottom: 200px;
+}
+
+.discussion-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.discussion-container2 {
+  margin: 10%;
+}
+
+.discussion-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.discussion-header {
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.discussion-sub-header {
+  color: #454545;
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+.discussion-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
