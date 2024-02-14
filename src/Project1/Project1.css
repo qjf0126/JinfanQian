@@ -4,7 +4,6 @@
   top: 100px;
   left: 40px;
   width: 180px;
-  font-size: 13px;
   /* 其他样式 */
 }
 
@@ -13,8 +12,14 @@
 }
 
 .navigation-content {
+  font-size: 13px;
   padding: 20px;
   /* 其他样式 */
+}
+
+.navigation-home {
+  padding: 20px 20px 0px 20px;
+  font-size: 20px;
 }
 
 .navigation a {
@@ -28,6 +33,11 @@
 .navigation a.active {
   color: #3C8CDD;
   /* 其他样式 */
+}
+
+.bi bi-house {
+  font-size: 20px;
+  color: #ccc;
 }
 
 

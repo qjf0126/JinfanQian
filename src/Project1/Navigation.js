@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const sections = [
   { name: 'Background', href: '#background' },
@@ -7,6 +9,10 @@ const sections = [
   { name: 'Prototyping & Testing', href: '#Prototype' },
   { name: 'Final Design', href: '#final' },
   { name: 'Diccussion', href: '#diccussion' },
+];
+
+const section = [
+  { name: <i className="bi bi-house"></i>, href: '/' },
 ];
 
 const Navigation = () => {
@@ -44,6 +50,22 @@ const Navigation = () => {
 
   return (
     <nav className={`navigation ${showNavigation ? 'show' : ''}`}>
+      <div className="navigation-home">
+        {section.map((section) => (
+          <Link
+            key={section.name}
+            to={section.href}
+            className={activeSection === section.name ? 'active' : ''}
+            onClick={() => {
+              if (section.name === 'Home') {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }
+            }}
+          >
+            {section.name}
+          </Link>
+        ))}
+      </div>
       <div className="navigation-content">
         {sections.map((section) => (
           <a
