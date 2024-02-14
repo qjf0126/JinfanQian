@@ -57,7 +57,9 @@ export const Projects = () => {
             Explore <ArrowRightCircle size={25} />
           </NavLink>
         </aside>
-        <img src={renderp1} style={{width:'45%', margin:'20px 0 20px 0'}}></img>
+        <NavLink to="/project1" className='renderp1'>
+          <img src={renderp1}></img>
+        </NavLink>
       </div>
       <div>
         <div id="projects-tabs" defaultActiveKey="first">
