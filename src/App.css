@@ -403,12 +403,16 @@ img {
   background-color: #ffffff;
 }
 
-
 .project h2 {
 	font-size: 50px;
 	font-weight: 200;
   text-align: center;
   color: #454545;
+}
+
+.renderp1 {
+  width:48%; 
+  margin: 40px 0px 20px 0px;
 }
 
 .proj-imgbx {
@@ -486,208 +490,6 @@ img {
 }
 
 
-/************docs css***********/
-.docs {
-  width: 70%;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
-}
-  
-.docscontainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  background-color: #EDF0F3;
-  border-radius:0 0 16px 16px;
-  padding-top: 10px;
-  box-shadow:  0 0 16px rgba(0, 0, 0, 0.2);
-}
-  
-.docstext-area {
-  width: 80%;
-  height: 400px;
-  padding: 20px;
-  margin: 20px 0 20px 20px;
-  background-color: #ffffff;
-  border-radius:12px;
-}
-  
-.docsbuttons {
-  margin: 20px;
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-  
-.docsbutton {
-  padding: 20px;
-  cursor: pointer;
-  background-color: #ffffff;
-  color: #454545;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
-  display: flex;
-  align-items: center;
-}
-  
-.docsbutton:hover {
-  background-color: #EAF2FA;
-}
-  
-.docsbutton-icon {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
-  
-/* Additional styles for better appearance */
-.docssentence {
-  margin-bottom: 10px;
-  padding: 10px;
-}
-  
-.docssentence.hidden {
-  display: none;
-}
-  
-.docsbutton-row {
-  display: flex;
-  justify-content: space-between;
-}
-  
-.docsbutton-row button {
-  flex-grow: 1;
-}
-
-
-/************ Contact Css ************/
-.ReactModal__Overlay {
-  background-color: rgba(0, 0, 0, 0.5); /* 背景颜色 */
-  z-index: 9999; /* 设置较高的层级 */
-}
-
-.contact img {
-  margin-top: 40%;
-  margin-left: 30%;
-  
-}
-
-.image-hovered {
-  transform: scale(0.95);
-  transition: transform 0.3s ease;
-}
-
-.email {
-  color: #3C8CDD;
-  margin-left: 50%;
-  margin-top: 5%;
-  width: 300px;
-}
-
-.text {
-  position: absolute;
-  top: 80px;
-  left: 50%;
-  width: 300px;
-  color: #3C8CDD;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.ReactModal__Content {
-  background-color: #C2ECF0; /* 对话框背景颜色 */
-  padding: 60px 0; /* 调整内边距 */
-  width: 70%;
-  margin: auto; /* 居中对齐 */
-  border-radius: 12px; /* 圆角边框 */
-  outline: none; /* 移除默认的边框样式 */
-  max-height: 60vh; /* 设置最大高度 */
-  overflow-y: auto; /* 添加纵向滚动条 */
-}
-
-.ReactModal__Content h2 {
-  font-size: 45px;
-  font-weight: 700;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  color: #3C8CDD;
-}
-
-.ReactModal__Content form input,
-.ReactModal__Content form textarea {
-  width: 100%;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid #3C8CDD;
-  border-radius: 10px;
-  color: #3C8CDD;
-  margin: 0 0 8px 0;
-  padding: 12px 18px;
-  font-weight: 500;
-  font-size: 12px;
-  letter-spacing: 0.8px;
-  transition: 0.3s ease-in-out;
-}
-
-.ReactModal__Content form input:focus,
-.ReactModal__Content form textarea:focus {
-  background: rgba(255, 255, 255, 1);
-  color: #121212;
-}
-
-.ReactModal__Content form input::placeholder,
-.ReactModal__Content form textarea::placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  color: #3C8CDD;
-}
-
-.ReactModal__Content form input:focus::placeholder,
-.ReactModal__Content form textarea:focus::placeholder {
-  color: #121212;
-  opacity: 0.8;
-}
-
-.ReactModal__Content form button {
-  font-weight: 700;
-  color: #000;
-  background-color: #d1d1d1;
-  padding: 14px 48px;
-  font-size: 18px;
-  margin-top: 25px;
-  border-radius: 0;
-  position: relative;
-  transition: 0.3s ease-in-out;
-}
-
-.ReactModal__Content form button span {
-  z-index: 1;
-  position: relative;
-}
-
-.ReactModal__Content form button:hover {
-  color: #fff;
-}
-
-.ReactModal__Content form button::before {
-  content: "";
-  background: #121212;
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  transition: 0.3s ease-in-out;
-}
-
-.ReactModal__Content form button:hover::before {
-  width: 100%;
-}
-
-
 /* ProfilePage.css */
 .Aboutcontainer {
   margin-top: 10%;
@@ -711,13 +513,15 @@ img {
 
 /************ Footer Css ************/
 .footer {
-  padding: 10px 10px 10px 10px;
-  background: linear-gradient(to right, #FAFAFA, #FAFAFA);
+  height: 200px;
+  padding: 60px 250px 40px 250px;
+  background: linear-gradient(#FBFCFE, #d1e1fa);
 }
 
 .footer p {
   font-weight: 400;
-  font-size: 14px;
-  color: #AAAAAA;
+  font-size: 16px;
+  color: #707070;
   letter-spacing: 0.5px;
+  padding: 0px 0px 10px 10px;
 }
