@@ -187,10 +187,6 @@
   margin-right: 20%;
 }
 
-.research-container2 {
-  margin: 10%;
-}
-
 .research-h2 {
   color: #3C8CDD;
   font-size: medium;
@@ -235,6 +231,61 @@
 }
 
 .research-list-item {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #707070;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+
+/* FindingsSection.css */
+#findings {
+  letter-spacing: 0.1em;
+  background-color: #F7FAFD;
+}
+
+.findings-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.findings-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.findings-header {
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+.findings-sub-header {
+  color: #454545;
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+.findings-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.findings-list {
+  list-style-type: circle;
+  margin-bottom: 40px;
+}
+
+.findings-list-item {
   margin-top: 5px;
   font-size: 16px;
   color: #707070;

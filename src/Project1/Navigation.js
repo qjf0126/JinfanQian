@@ -4,7 +4,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const sections = [
   { name: 'Background', href: '#background' },
-  { name: 'Research & Findings', href: '#research' },
+  { name: 'Research', href: '#research' },
+  { name: 'Findings', href: '#findings' },
   { name: 'Ideation & Validation', href: '#ideation' },
   { name: 'Prototyping & Testing', href: '#Prototype' },
   { name: 'Final Design', href: '#final' },

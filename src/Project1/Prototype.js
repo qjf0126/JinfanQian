@@ -16,7 +16,7 @@ const Prototype = () => {
       <div className="Prototype-container">
         <h2 className='Prototype-h2'>PROTOTYPING & TESTING</h2>
         <p className="Prototype-paragraph">
-          I test the usability of the software wireframe based on three user scenarios.
+          I prototyped based on three user scenarios and later conducted usability studies with 5 participants.
         </p>
         <section className='Prototype-scenarios'>
           <p className='scenariotitle'>#scenario1 (itinerary planning)</p>

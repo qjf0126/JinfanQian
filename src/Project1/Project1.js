@@ -3,6 +3,7 @@ import React from 'react';
 // 可以为每个部分创建一个单独的组件
 import Background from './Background';
 import Research from './Research';
+import Findings from './Findings';
 import Ideation from './Ideation';
 import FinalDesign from './FinalDesign';
 import Prototype from './Prototype';
@@ -16,6 +17,7 @@ class Project1 extends React.Component {
       <div className="project1-container">
         <Background />
         <Research />
+        <Findings />
         <Ideation />
         <Prototype />
         <FinalDesign />
