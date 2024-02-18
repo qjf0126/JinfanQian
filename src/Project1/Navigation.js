@@ -9,7 +9,7 @@ const sections = [
   { name: 'Ideation & Validation', href: '#ideation' },
   { name: 'Prototyping & Testing', href: '#Prototype' },
   { name: 'Final Design', href: '#final' },
-  { name: 'Diccussion', href: '#diccussion' },
+  { name: 'Diccussion', href: '#discussion' },
 ];
 
 const section = [

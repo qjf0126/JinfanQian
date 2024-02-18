@@ -458,7 +458,7 @@
 #discussion {
   letter-spacing: 0.1em;
   background-color: #F7FAFD;
-  padding-bottom: 200px;
+  padding: 60px 0px 200px 0px;
 }
 
 .discussion-container {

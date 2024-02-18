@@ -17,6 +17,8 @@ import Start3 from './img/Start3.png';
 import Start4 from './img/Start4.png';
 import featurecallout1 from './img/featurecallout1.png';
 import featurecallout2 from './img/featurecallout2.png';
+import featurecallout3 from './img/featurecallout3.png';
+import featurecallout4 from './img/featurecallout4.png';
 
 
 const FinalDesign = () => {
@@ -34,7 +36,7 @@ const FinalDesign = () => {
             <img src={us11}></img>
             <img src={featurecallout1} />
           </div>
-          <ul className="final-list"><li className="final-list-item" style={{lineHeight:'30px'}}>It is several weeks before you take the flight. Since you are not familiar with JFK, you want to make a plan tgt for the journey to make sure you can catch the flight.</li></ul>
+          <ul className="final-list"><li className="final-list-item" style={{lineHeight:'30px'}}>You want to find a highly-rated restaurant in the airport and ensure you have enough time to catch your flight after dining.</li></ul>
           <div className="final-video1">
             <img src={us12} />
             <img src={featurecallout2} style={{margin:'0px 0px 40px 0px'}}/>
@@ -45,7 +47,6 @@ const FinalDesign = () => {
           <ul className="final-list"><li className="final-list-item">The night before departure, you want to book a taxi to the JFK airport in advance.</li></ul>
           <div className="final-video2">
             <div className="final-image-area">
-              <p className='final-paragraph'>I design the ride-hailing feature section of the app to resemble Uber's interface, making it more intuitive for users to locate where to request a ride.</p>
               <img src={Start1}></img>
             </div>
             <img src={us2} className='final-us2'></img>
@@ -56,7 +57,7 @@ const FinalDesign = () => {
           <ul className="final-list"><li className="final-list-item">After receiving the departure notification, you and your friends set off for JFK Airport.</li></ul>
           <div className="final-video2">
             <div className="final-image-area">
-              <p className='final-paragraph'>When the user selects to start the journey, the software will begin displaying a countdown to the closing of the boarding gate and track the user's real-time movement.</p>
+              <img src={featurecallout3}></img>
               <img src={Start2}></img>
             </div>
             <img src={us31} className='final-us2'></img>
@@ -82,7 +83,7 @@ const FinalDesign = () => {
           <ul className="final-list"><li className="final-list-item">At JFK airport, you can’t find the security screening, so you need to follow the navigation.</li></ul>
           <div className="final-video2">
             <div className="final-image-area">
-              <p className='final-paragraph'>Users can directly view navigation from custom mobile home screen widgets.</p>
+              <img src={featurecallout4}></img>
               <img src={Start4}></img>
             </div>
             <img src={us33} className='final-us2'></img>
