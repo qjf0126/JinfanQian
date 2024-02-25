@@ -1,7 +1,5 @@
-import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg3 from "../assets/img/project-img3.png";
 import renderp1 from '../assets/img/renderp1.png';
+import renderp2 from '../assets/img/renderp2.png';
 import 'animate.css';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import { Filter } from 'react-bootstrap-icons';
@@ -9,16 +7,6 @@ import { NavLink } from "react-router-dom";
 import React, { useState } from 'react';
 
 export const Projects = () => {
-
-  const projects = [
-    {
-      imgUrl: projImg1,
-
-    },
-    {
-      imgUrl: projImg3,
-    }
-  ];
 
   const [showButtons, setShowButtons] = useState(false);
 
@@ -61,25 +49,22 @@ export const Projects = () => {
           <img src={renderp1}></img>
         </NavLink>
       </div>
-      <div>
-        <div id="projects-tabs" defaultActiveKey="first">
-          <div id="slideInUp">
-            <div eventKey="first">
-              <div>
-                {
-                  projects.map((project, index) => {
-                    return (
-                      <ProjectCard
-                        key={index}
-                        {...project}
-                        />
-                    )
-                  })
-                }
-              </div>
-            </div>
+      <div className="project">
+        <aside className="Project-sidebar">
+          <h1>Steam app redesign</h1>
+          <p>Optimize the gaming community user experience on the Steam Mobile.</p>
+          <div>
+            <button>UX Design</button>
+            <button>case study</button>
+            <button>Personal Project</button>
           </div>
-        </div>
+          <NavLink to="/project1" className='clicktoexplore'>
+            Explore <ArrowRightCircle size={25} />
+          </NavLink>
+        </aside>
+        <NavLink to="/project1" className='renderp1'>
+          <img src={renderp2}></img>
+        </NavLink>
       </div>
     </section>
   )
