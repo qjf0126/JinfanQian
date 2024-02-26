@@ -39,7 +39,7 @@ export const Projects = () => {
           <div>
             <button>UX Design</button>
             <button>UI Design</button>
-            <button>Personal Project</button>
+            <button>Individual Project</button>
           </div>
           <NavLink to="/project1" className='clicktoexplore'>
             Explore <ArrowRightCircle size={25} />
@@ -55,8 +55,9 @@ export const Projects = () => {
           <p>Optimize the gaming community user experience on the Steam Mobile.</p>
           <div>
             <button>UX Design</button>
-            <button>case study</button>
-            <button>Personal Project</button>
+            <button>Case Study</button>
+            <button>Mobile</button>
+            <button>Individual Project</button>
           </div>
           <NavLink to="/project1" className='clicktoexplore'>
             Explore <ArrowRightCircle size={25} />
