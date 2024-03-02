@@ -1,5 +1,6 @@
 // components/Research.js
 import React from 'react';
+import drawexperience from './img/drawexperience.jpg';
 
 
 const Research = () => {
@@ -18,12 +19,9 @@ const Research = () => {
             <li className="research-list-item">How they feel about existing flight process?</li>
         </ul>
         <p className="research-paragraph">
-          I interviewed 3 participants, combining the “draw your experience” method.
+          I interviewed 3 participants, combining the “draw your experience” method:
         </p>
-        <div className="research-image-area">
-          {/* 在这里放置图片或其他内容 */}
-          Image Placeholder
-        </div>
+        <img src={drawexperience} style={{borderRadius:'12px', marginBottom:'80px'}}></img>
       </div>
     </section>
   );
