@@ -10,28 +10,13 @@ const About = () => {
       <div className="Aboutcontainer">
         <h2>AN UX DESIGNER</h2>
         <p>
-          What if <em>interactions</em> were always familiar,<br />
-          like your daily walk to the corner store.<br />
-          What if <em>products</em> were not just tools,<br />
-          but a good friend who comes forward<br />
-          and takes your hand.<br />
-          What if <em>data</em> were not just numbers,<br />
-          but also colors, stories,<br />
-          and deep blue eyes,<br />
-          that stare into your soul.
+          <p>I did my undergraduate studies in the</p>
+          <p>Art and Technology program at Zhejiang University.</p>
+          <p>I have a strong passion for UX design and coding.</p>
+          <p>My personal portfolio website is still under development,</p>
+          <p>I will continue to update my work.</p>
         </p>
-        <p>I often dream of this world.</p>
         <p className="emoji">🌍</p>
-
-        <h2>AN INTJ-T</h2>
-        <p>
-          Spends too much time trying and deleting apps<br />
-          Creates a spreadsheet for everything<br />
-          Reads Eileen Chang and design<br />
-          Enjoys writing stream of consciousness on paper (aka journaling)
-        </p>
-        <p className="emoji">👩‍💻</p>
-
         <img src={skyimg} className='skyimg' alt="Cloudy Sky" />
       </div>
       <Footer />
