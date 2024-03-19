@@ -499,3 +499,55 @@
   margin-top: 10px;
 }
 
+/* FooterSection.css */
+#footer {
+  letter-spacing: 0.1em;
+  background: linear-gradient(#F7FAFD, #d1e1fa);
+  padding: 60px 0px 60px 0px;
+}
+
+.footer-container {
+  color: #3C8CDD;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+  display: flex;
+}
+
+.footer-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-right: 80px;
+}
+
+.footer-header {
+  color: #263340;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.winnerpage {
+  color: #263340;
+  padding: 10px 20px 10px 20px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: solid 1px #263340;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 40px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+
+.winnerpage:hover {
+  color: #007AFF;
+  border: solid 1px #007AFF;
+  background-color: white;
+}
+
+
