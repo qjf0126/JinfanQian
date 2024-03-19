@@ -9,6 +9,7 @@ import FinalDesign from './FinalDesign';
 import Prototype from './Prototype';
 import Navigation from './Navigation';
 import Discussion from './Discussion';
+import Footer from './Footer';
 
 // 主组件，用于布局和导航
 class Project1 extends React.Component {
@@ -23,6 +24,7 @@ class Project1 extends React.Component {
         <FinalDesign />
         <Navigation />
         <Discussion />
+        <Footer />
       </div>
     );
   }
