@@ -467,6 +467,7 @@ img {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .clicktoexplore svg {
   font-size: 25px;
