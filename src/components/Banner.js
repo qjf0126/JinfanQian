@@ -8,7 +8,7 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container className="bannercontainer">
         <div className="bannertext">
-          <h1>Hi, I'm Qian Jinfan.</h1>
+          <h1>Hi, I'm Jinfan Qian</h1>
           <p style={{fontSize:'18px'}}>I did my undergraduate studies in the Art and Technology program at Zhejiang University. I have a strong passion for UX design and coding.</p>
           <button>more about me</button>
         </div>
