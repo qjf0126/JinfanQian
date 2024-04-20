@@ -10,7 +10,6 @@
 	font-weight: 500;
 }
 
-
 /************ Default Css ************/
 * {
   margin: 0;
@@ -240,7 +239,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner h1 {
   font-size: 60px;
-  font-weight: 500;
+  font-weight: 550;
   letter-spacing: 0.8px;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -258,9 +257,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 10px;
   margin-bottom: 50px;
 }
+.banner a {
+  text-decoration: none;
+}
 .banner button {
   color: #3C8CDD;
-  padding: 10px 20px 10px 20px;
+  padding: 12px 20px 12px 20px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 25px;
   font-weight: 100;
