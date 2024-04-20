@@ -8,6 +8,7 @@ import { Projects } from "./components/Projects";
 import Aboutcomponent from "./components/About";
 import { Footer } from "./components/Footer";
 import Project1Component from "./Project1/Project1";
+import Project2Component from "./Project2/Project2";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
           <Route path="/project1" element={<Project1 />} />
+          <Route path="/project2" element={<Project2 />} />
         </Routes>
       </div>
     </Router>
@@ -48,6 +50,14 @@ function Project1() {
       <Project1Component />
     </div>
   )
-}
+  }
+
+function Project2() {
+  return (
+    <div>
+      <Project2Component />
+    </div>
+  )
+  }
 
 export default App;
