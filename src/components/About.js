@@ -8,7 +8,6 @@ const About = () => {
     <div>
       <NavBar />
       <div className="Aboutcontainer">
-        <h2>AN UX DESIGNER</h2>
         <p>
           <p>I did my undergraduate studies in the</p>
           <p>Art and Technology program at Zhejiang University.</p>

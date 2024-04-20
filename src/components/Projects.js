@@ -59,11 +59,11 @@ export const Projects = () => {
             <button>Mobile</button>
             <button>Individual Project</button>
           </div>
-          <NavLink to="/project1" className='clicktoexplore'>
+          <NavLink to="/project2" className='clicktoexplore'>
             Explore <ArrowRightCircle size={25} />
           </NavLink>
         </aside>
-        <NavLink to="/project1" className='renderp1'>
+        <NavLink to="/project2" className='renderp1'>
           <img src={renderp2}></img>
         </NavLink>
       </div>
