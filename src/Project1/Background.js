@@ -1,5 +1,5 @@
 import render1 from "./img/render1.png";
-import Designprogress from "./img/Designprogress.png";
+import divide from "./img/divide.png";
 import './Project1.css'
 
 const Background = () => {
@@ -32,7 +32,7 @@ const Background = () => {
         </section>
       </div>
 
-      <img src={Designprogress} className="Designprogress"></img>
+      <img src={divide} className="divide"></img>
     </section>
   );
 }
