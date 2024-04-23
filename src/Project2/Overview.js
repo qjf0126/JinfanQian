@@ -21,7 +21,7 @@ const Overview = () => {
         <section className="Project2-overview">
           <p>Timeline: January 2024 - April 2024</p>
           <p>Tool: Figma, Figjam, Google Forms</p>
-          <p>Skill: Interviews, Competitive analysis, Low & High-fidelity prototyping</p>
+          <p>Skill: Interviews, Competitive analyse, Low & High-fidelity prototyping</p>
           <button>UX Design</button>
           <button>UI Design</button>
           <button>Redesign project</button>

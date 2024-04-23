@@ -113,66 +113,6 @@
   margin-bottom: 150px;
 }
 
-
-
-/* PrototypeSection.css */
-#Prototype {
-  letter-spacing: 0.1em;
-  background-color: #FAFCFE;
-}
-
-.Prototype-container {
-  color: #333;
-  padding: 20px;
-  margin-left: 25%;
-  margin-right: 20%;
-}
-
-.Prototype-h2 {
-  color: #3C8CDD;
-  font-size: medium;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.Prototype-paragraph {
-  color: #707070;
-  font-size: 16px;
-  line-height: 36px;
-  margin-top: 10px;
-}
-
-.Prototype-list {
-  list-style-type: circle;
-}
-
-.Prototype-list-item {
-  margin-top: 5px;
-  font-size: 16px;
-  color: #707070;
-  font-weight: normal;
-  line-height: 36px;
-}
-
-.Prototype-scenarios {
-  background-color: white;
-  border-radius: 10px;
-  margin-bottom: 40px;
-}
-
-.scenariotitle {
-  color: #3C8CDD;
-  padding: 40px;
-  padding-bottom: 10px;
-  font-size: 24px;
-}
-
-.scenariocontent {
-  padding-left: 40px;
-  padding-right: 40px;
-  line-height: 25px;
-}
-
 /* IntroSection.css */
 #Intro {
   letter-spacing: 0.1em;
@@ -215,6 +155,18 @@
 
 .imgcontainer {
   display: flex;
+}
+
+.HMW {
+  color: #454545;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 48px;
+  margin: 10px 0px 60px 0px;
+  text-decoration: underline;
+  text-decoration-color: #E5F2FF;
+  text-decoration-thickness: 6px;
+  text-underline-offset: 8px;
 }
 
 
@@ -260,7 +212,7 @@
 
 .research2-list {
   list-style-type: circle;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .research2-list-item {
@@ -271,25 +223,41 @@
   line-height: 30px;
 }
 
-.btn {
-  margin: 0px 20px 20px 20px;
+.collapse-btn {
+  display: flex;
+  align-items: center; /* 垂直居中对齐 */
+  justify-content: space-between;
+  margin: 40px 0px 20px 0px;
+  width: 100%;
+  text-align: left;
   padding: 12px 16px;
   letter-spacing: 0.05em;
-  background-color: #E8F2FC;
+  background-color: #EEF5FC;
+  border: 1px solid #ccc;
   color: #3C8CDD;
-  border: none;
   cursor: pointer;
   border-radius: 12px;
   font-size: 18px;
 }
 
-.btn:hover {
+.collapse-btn:hover {
   color: #3C8CDD;
   background-color: #D1E5FA;
 }
 
-.card card-body {
-  margin-bottom: 20px;
+.collapse-btn::after {
+  content: '+';
+  float: right;
+  font-size: 24px;
+}
+
+.collapse-btn[aria-expanded="true"]::after {
+  content: '-';
+  font-size: 24px;
+}
+.collapse-btn[aria-expanded="false"]::after {
+  content: '+';
+  font-size: 24px;
 }
 
 /* chart1.css */
@@ -425,7 +393,7 @@
 
 .purchase {
   width: 30%;
-  border-radius: 12px;
+  border-radius: 16px;
   margin: 20px 20px 20px 0px;
 }
 
@@ -434,92 +402,104 @@
 }
 
 
-/* IdeationSection.css */
-#ideation {
+/* Goals.css */
+#goals2 {
   letter-spacing: 0.1em;
   background-color: #FAFCFE;
 }
 
-.ideation-container {
-  color: #333;
+.goals2-container {
   padding: 20px;
   margin-left: 25%;
   margin-right: 20%;
 }
 
-.ideation-h2 {
+.goals2-h2 {
   color: #3C8CDD;
   font-size: medium;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.ideation-header {
+.goals2-header {
   color: #454545;
   font-size: 20px;
   font-weight: bold;
   line-height: 32px;
 }
 
-.ideation-sub-header {
+.goals2-list {
+  list-style-type: disc;
+  margin-bottom: 80px;
+}
+
+.goals2-list-item {
   color: #454545;
-  font-size: 10px;
-  margin-top: 15px;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 48px;
+  margin: 20px 0px 20px 0px;
+  text-decoration: underline;
+  text-decoration-color: #E5F2FF;
+  text-decoration-thickness: 6px;
+  text-underline-offset: 8px;
 }
 
-.ideation-paragraph {
-  color: #707070;
-  font-size: 16px;
-  line-height: 36px;
-  margin-top: 10px;
-}
-
-.ideation-list {
-  list-style-type: circle;
-}
-
-.ideation-list-item {
-  margin-top: 5px;
-  font-size: 16px;
-  color: #707070;
-  font-weight: normal;
-  line-height: 30px;
-}
-
-
-/* FinalSection.css */
-#final {
+/* PrototypeSection.css */
+#prototype2 {
   letter-spacing: 0.1em;
   background-color: #FAFCFE;
 }
 
-.final-container {
-  color: #333;
+.prototype2-container {
   padding: 20px;
   margin-left: 25%;
   margin-right: 20%;
 }
 
-.final-image-area {
-  margin: 40px 20px 40px 0px;
-}
-
-.final-container2 {
-  margin: 10%;
-}
-
-.render {
-  margin-bottom: 20px;
-}
-
-.final-h2 {
+.prototype2-h2 {
   color: #3C8CDD;
   font-size: medium;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.final-header {
+.prototype2-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 36px;
+  margin-top: 10px;
+}
+
+
+/* FinalSection.css */
+#final2 {
+  letter-spacing: 0.1em;
+  background-color: #FAFCFE;
+}
+
+.final2-container {
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.final2-image-area {
+  margin: 40px 20px 40px 0px;
+}
+
+.final2-container2 {
+  margin: 10%;
+}
+
+.final2-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.final2-header {
   color: #454545;
   font-size: 20px;
   font-weight: bold;
@@ -527,16 +507,10 @@
   margin-top: 20px;
 }
 
-.final-sub-header {
+.final2-sub-header {
   color: #454545;
   font-size: 10px;
   margin-top: 15px;
-}
-
-.Visualdesign {
-  width: 50%;
-  margin-top: 20px;
-  margin-bottom: 100px;
 }
 
 .final-paragraph {
@@ -546,11 +520,11 @@
   margin-top: 10px;
 }
 
-.final-list {
+.final2-list {
   list-style-type: circle;
 }
 
-.final-list-item {
+.final2-list-item {
   margin-top: 5px;
   font-size: 16px;
   color: #707070;
@@ -558,81 +532,51 @@
   line-height: 36px;
 }
 
-.final-scenarios {
+.final2-scenarios {
   background-color: white;
   border-radius: 20px;
   margin-bottom: 40px;
 }
 
-.video-player {
-  width: 100%;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  border-radius: 12px;
-}
-
-.final-us2 {
-  width: 50%;
-  margin-bottom: 20px;
-  margin-top: 0px;
-  border-radius: 10px;
-}
-
-.final-video1 {
-  margin-top: 40px;
-}
-
-.final-video2 {
-  display: flex;
-}
-
-.carousel-control-next {
-  width: 5%;
-}
-
-.carousel-control-prev {
-  width: 5%;
-}
-
 /* DiscussionSection.css */
-#discussion {
+#discussion2 {
   letter-spacing: 0.1em;
   background-color: #FAFCFE;
   padding: 60px 0px 200px 0px;
 }
 
-.discussion-container {
+.discussion2-container {
   color: #333;
   padding: 20px;
   margin-left: 25%;
   margin-right: 20%;
 }
 
-.discussion-container2 {
+.discussion2-container2 {
   margin: 10%;
 }
 
-.discussion-h2 {
+.discussion2-h2 {
   color: #3C8CDD;
   font-size: medium;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.discussion-header {
+.discussion2-header {
   color: #454545;
   font-size: 20px;
   font-weight: bold;
   line-height: 36px;
 }
 
-.discussion-sub-header {
+.discussion2-sub-header {
   color: #454545;
   font-size: 10px;
   margin-top: 15px;
 }
 
-.discussion-paragraph {
+.discussion2-paragraph {
   color: #707070;
   font-size: 16px;
   line-height: 36px;

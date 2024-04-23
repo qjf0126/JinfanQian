@@ -5,7 +5,7 @@ import Overview from './Overview';
 import Intro from './Intro';
 import Research from './Research';
 import Findings from './Findings';
-import Ideation from './Ideation';
+import Goals from './Goals';
 import FinalDesign from './FinalDesign';
 import Prototype from './Prototype';
 import Navigation from './Navigation';
@@ -20,7 +20,7 @@ class Project2 extends React.Component {
         <Intro />
         <Research />
         <Findings />
-        <Ideation />
+        <Goals />
         <Prototype />
         <FinalDesign />
         <Navigation />

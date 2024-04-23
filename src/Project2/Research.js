@@ -7,24 +7,19 @@ const Research = () => {
     <section id="research2">
       <div className="research2-container">
         <h2 className='research2-h2'>RESEARCH</h2>
-        <h2 className="research2-header">Research Questions</h2>
+        <p className="research2-paragraph">With the research, I want to understand existing problems with Steam mobile app and discover the potential values of a mobile experience for gamers. On the other hand, as views and purchases are 2 important metrics for game developers, I want to zoom into gamers' game discovery and purchasing behaviors. </p>
         <ul className="research2-list">
           <li className="research2-list-item">Do they use Steam mobile? What do they use Steam Mobile for?</li>
-          <li className="research2-list-item">Do they use the app to discover and purchase games? why or why not?</li>
+          <li className="research2-list-item">Do they use the app to discover and purchase games? Why or why not?</li>
           <li className="research2-list-item">What do they do before buying a game or Downloadable content (DLC) on Steam? How do they make the purchase decision?</li>
           <li className="research2-list-item">What do they use to consume gaming information and learn about a game?</li>
         </ul>
-        <h2 className="research2-header">Research Methods</h2>
-        <ul className="research2-list">
-          <li className="research2-list-item">I distributed surveys to over 50 Steam users.</li>
-          <li className="research2-list-item">I interviewed 4 Steam users.</li>
-          <li className="research2-list-item">based on interview findings, I conducted competitive analyses with the platforms users use to discover games.</li>
-        </ul>
-        <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-controls="collapseExample">
+        <p className="research2-paragraph">In order to get the answers to these questions, I distributed surveys to over 50 Steam users and interviewed 4 of them. Later, based on interview findings, I conducted competitive analyses on existing competitors they mention in the pinpointed opportunity area.</p>
+        <button class="btn collapse-btn" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-controls="collapseExample">
           🔍 Click here to view the detailed research process and results
         </button>
         <div className="collapse" id="collapseExample">
-          <div className="card card-body" style={{marginBottom: '20px'}}>
+          <div className="card card-body" style={{marginBottom: '20px', borderRadius:'12px'}}>
             <h2 className="research2-header">📊 Survey results</h2>
             <p className="research2-paragraph" style={{marginLeft:'30px'}}>Q1: Have you ever used Steam Mobile?</p>
             <div class="bar" style={{height: '30px'}}>
@@ -91,7 +86,7 @@ const Research = () => {
                   <div className="bar-fill" style={{width: '76.2%'}}></div>
               </div>
               <div className="bar">
-                  <div className="bar-text">Game official website
+                  <div className="bar-text">Game official site
                     <div className="tip">13.9%</div>
                   </div>
                   <div className="bar-fill" style={{width: '13.9%'}}></div>
@@ -130,7 +125,7 @@ const Research = () => {
                   <div className="bar-fill" style={{width: '42.6%'}}></div>
               </div>
               <div className="bar">
-                  <div className="bar-text">Game official website
+                  <div className="bar-text">Game official site
                     <div className="tip">23.8%</div>
                   </div>
                   <div className="bar-fill" style={{width: '23.8%'}}></div>
@@ -143,11 +138,11 @@ const Research = () => {
               </div>
             </div>
           </div>
-          <div className="card card-body" style={{marginBottom: '20px'}}>
+          <div className="card card-body" style={{marginBottom: '20px', borderRadius:'12px'}}>
             <h2 className="research2-header">🎙️ Interview</h2>
             <p className="research2-paragraph" style={{marginLeft:'30px'}}>I conducted interviews with four Steam users, and here is what they said.</p>
           </div>
-          <div className="card card-body" style={{marginBottom: '20px'}}>
+          <div className="card card-body" style={{marginBottom: '20px', borderRadius:'12px'}}>
             <h2 className="research2-header">⚖️ Competitive analyses</h2>
             <p className="research2-paragraph" style={{marginLeft:'30px'}}>based on interview takeaways, I conducted competitive analyses with the platforms users use to discover and purchase games.</p>
           </div>

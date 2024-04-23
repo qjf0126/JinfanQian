@@ -5,8 +5,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 const sections = [
   { name: 'Overview', href: '#overview2' },
   { name: 'Research', href: '#research2' },
-  { name: 'Findings', href: '#findings' },
-  { name: 'Ideation & Validation', href: '#ideation' },
+  { name: 'Findings', href: '#findings2' },
+  { name: 'Redesign Goals', href: '#goals2' },
   { name: 'Prototyping & Testing', href: '#Prototype' },
   { name: 'Final Design', href: '#final' },
   { name: 'Diccussion', href: '#discussion' },
