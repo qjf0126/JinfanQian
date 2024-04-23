@@ -106,7 +106,7 @@
 }
 
 .Project1-background p {
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .divide {
@@ -458,7 +458,7 @@
 #discussion {
   letter-spacing: 0.1em;
   background-color: #F7FAFD;
-  padding: 60px 0px 200px 0px;
+  padding: 60px 0px 180px 0px;
 }
 
 .discussion-container {
@@ -495,7 +495,7 @@
 .discussion-paragraph {
   color: #707070;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 36px;
   margin-top: 10px;
 }
 
@@ -524,6 +524,9 @@
 }
 
 .winnerpage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: #263340;
   padding: 10px 20px 10px 20px;
   background-color: #ffffff;
