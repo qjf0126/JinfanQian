@@ -211,7 +211,7 @@
 }
 
 .research2-list {
-  list-style-type: circle;
+  list-style-type: disc;
   margin-bottom: 20px;
 }
 
@@ -233,7 +233,7 @@
   padding: 12px 16px;
   letter-spacing: 0.05em;
   background-color: #EEF5FC;
-  border: 1px solid #ccc;
+  border: 2px solid #D1E5FA;
   color: #3C8CDD;
   cursor: pointer;
   border-radius: 12px;
@@ -243,6 +243,11 @@
 .collapse-btn:hover {
   color: #3C8CDD;
   background-color: #D1E5FA;
+}
+
+.collapse-btn:active {
+  color: #3C8CDD !important; /* 添加 !important */
+  background-color: #D1E5FA !important; /* 添加 !important */
 }
 
 .collapse-btn::after {
@@ -379,16 +384,21 @@
 }
 
 .findings2-list {
-  list-style-type: circle;
+  list-style-type: disc;
   margin-bottom: 40px;
 }
 
 .findings2-list-item {
   margin-top: 5px;
-  font-size: 16px;
-  color: #707070;
-  font-weight: normal;
-  line-height: 36px;
+  font-size: 18px;
+  color: #454545;
+  font-weight: bold;
+  line-height: 40px;
+  text-decoration: underline;
+  text-decoration-color: #E5F2FF;
+  text-decoration-thickness: 4px;
+  text-underline-position: under;
+  text-underline-offset: 2px;
 }
 
 .purchase {
@@ -437,12 +447,8 @@
   color: #454545;
   font-size: 19px;
   font-weight: 600;
-  line-height: 48px;
+  line-height: 40px;
   margin: 20px 0px 20px 0px;
-  text-decoration: underline;
-  text-decoration-color: #E5F2FF;
-  text-decoration-thickness: 6px;
-  text-underline-offset: 8px;
 }
 
 /* PrototypeSection.css */
@@ -464,11 +470,29 @@
   margin-bottom: 20px;
 }
 
+.prototype2-sub-header {
+  color: #454545;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .prototype2-paragraph {
   color: #707070;
   font-size: 16px;
   line-height: 36px;
   margin-top: 10px;
+}
+
+.scenariop2 {
+  margin-bottom: 40px;
+}
+
+.prototype2-list-item {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #707070;
+  font-weight: normal;
+  line-height: 36px;
 }
 
 
@@ -521,7 +545,7 @@
 }
 
 .final2-list {
-  list-style-type: circle;
+  list-style-type: disc;
 }
 
 .final2-list-item {

@@ -16,7 +16,7 @@ const Research = () => {
         </ul>
         <p className="research2-paragraph">In order to get the answers to these questions, I distributed surveys to over 50 Steam users and interviewed 4 of them. Later, based on interview findings, I conducted competitive analyses on existing competitors they mention in the pinpointed opportunity area.</p>
         <button class="btn collapse-btn" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-controls="collapseExample">
-          🔍 Click here to view the detailed research process and results
+          Click here to view the detailed research process and results
         </button>
         <div className="collapse" id="collapseExample">
           <div className="card card-body" style={{marginBottom: '20px', borderRadius:'12px'}}>
