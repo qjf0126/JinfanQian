@@ -6,7 +6,7 @@ import prototype3 from './img/prototype3.gif';
 import feedback1 from './img/feedback1.png';
 import feedback2 from './img/feedback2.png';
 import feedback3 from './img/feedback3.png';
-
+import sitemap from './img/sitemap.png';
 
 const Prototype = () => {
   return (

@@ -487,6 +487,10 @@
   margin-bottom: 40px;
 }
 
+.prototype2-list {
+  margin-bottom: 80px;
+}
+
 .prototype2-list-item {
   margin-top: 5px;
   font-size: 18px;
@@ -533,11 +537,11 @@
 
 .final2-sub-header {
   color: #454545;
-  font-size: 10px;
-  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.final-paragraph {
+.final2-paragraph {
   color: #707070;
   font-size: 16px;
   line-height: 36px;
@@ -556,10 +560,8 @@
   line-height: 36px;
 }
 
-.final2-scenarios {
-  background-color: white;
-  border-radius: 20px;
-  margin-bottom: 40px;
+.switch {
+  margin-bottom: 80px;
 }
 
 /* DiscussionSection.css */

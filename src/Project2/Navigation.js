@@ -7,9 +7,9 @@ const sections = [
   { name: 'Research', href: '#research2' },
   { name: 'Findings', href: '#findings2' },
   { name: 'Redesign Goals', href: '#goals2' },
-  { name: 'Prototyping & Testing', href: '#Prototype' },
-  { name: 'Final Design', href: '#final' },
-  { name: 'Diccussion', href: '#discussion' },
+  { name: 'Prototyping & Testing', href: '#prototype2' },
+  { name: 'Final Design', href: '#final2' },
+  { name: 'Diccussion', href: '#discussion2' },
 ];
 
 const section = [
@@ -46,6 +46,10 @@ const Navigation = () => {
 
   // 在Navigation组件中添加条件渲染
   if (activeSection === 'Overview') {
+    return null; // 如果activeSection是'overview2'，则不渲染导航
+  }
+
+  if (activeSection === 'Final Design') {
     return null; // 如果activeSection是'overview2'，则不渲染导航
   }
 
