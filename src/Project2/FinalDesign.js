@@ -8,6 +8,7 @@ import sitemap from './img/sitemap.png';
 import sitemapOld from './img/sitemapold.png';
 import final1 from './img/final1.png';
 import final2 from './img/final2.png';
+import final3 from './img/final3.png';
 
 
 const FinalDesign = () => {
@@ -51,6 +52,7 @@ const FinalDesign = () => {
       </div>
       <img src={final1}/>
       <img src={final2}/>
+      <img src={final3}/>
     </section>
   );
 };

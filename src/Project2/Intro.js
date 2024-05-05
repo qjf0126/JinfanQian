@@ -7,6 +7,13 @@ const Intro = () => {
   return (
     <section id="Intro">
       <div className="Intro-container">
+        <iframe
+          width="100%"
+          height="750"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fj2b7QEIpB1aRKrS26hGlpA%2Fvisual%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D419-1386%26viewport%3D-1582%252C-979%252C0.13%26t%3D2ev2F8oNqUXAiqXc-1%26scaling%3Dscale-down%26starting-point-node-id%3D419%253A1386%26show-proto-sidebar%3D1%26mode%3Ddesign"
+          allowFullScreen
+        ></iframe>
+        <p className="Overview-header">Clickable Hi-fi Prototypes ✨</p>
         <h2 className='Intro-h2'>INTRODUCTION</h2>
         <h2 className="Intro-header">Steam is a digital distribution platform for playing, discussing, and creating games</h2>
         <p className="Intro-paragraph">
