@@ -1,8 +1,14 @@
 import render1 from "./img/render1.png";
 import divide from "./img/divide.png";
 import './Project1.css'
+import { useEffect } from 'react';
 
 const Background = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // 将页面滚动到顶部
+  }, []);
+
   return (
     <section id="background">
       {/* 顶部图片 */}
