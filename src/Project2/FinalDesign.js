@@ -10,6 +10,7 @@ import final1 from './img/final1.png';
 import final2 from './img/final2.png';
 import final3 from './img/final3.png';
 import final4 from './img/final4.png';
+import shopping from './img/shopping.gif';
 
 
 const FinalDesign = () => {
@@ -54,15 +55,16 @@ const FinalDesign = () => {
       </div>
       <img src={final1}/>
       <img src={final2}/>
-      <img src={final3}/>
+      <img src={final3} style={{marginBottom:'20px'}}/>
       <div className="final2-container">
         <p className='final2-sub-header'># Visit a game hub</p>
         <p className='final2-paragraph'> The game list is set on the homepage of the game community, providing users with a quick entry to subscribed game hubs. Users can also find a game hub through direct search.</p>
       </div>
-      <img src={final4}/>
+      <img src={final4} style={{marginBottom:'40px'}}/>
       <div className="final2-container">
         <p className='final2-sub-header'># Content-driven shopping experience</p>
         <p className='final2-paragraph'>By placing product links in posts, game operators allow players to directly purchase game-related content while browsing the game community.</p>
+        <img src={shopping} style={{width:'45%'}}/>
       </div>
     </section>
   );

@@ -1,11 +1,16 @@
 import render1 from "./img/render1.png";
 import divide from './img/divide.png';
-import './Project2.css'
+import './Project2.css';
+import { useEffect } from 'react';
 
 const Overview = () => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0); // 将页面滚动到顶部
+  }, []);
+
   return (
     <section id="overview2">
-      {/* 顶部图片 */}
       <header className="Project2-header">
         <img src={render1} alt="" />
       </header>
