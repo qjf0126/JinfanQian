@@ -13,7 +13,10 @@ const Footer = () => {
             <p>
               2024 Muse Design Award Silver Prize.
             </p>
-            <NavLink to="https://museaward.com/winner-info.php?id=229805" className='winnerpage'>Dedicated Winner's Page →</NavLink>
+            <NavLink to="https://museaward.com/winner-info.php?id=229805" className='winnerpage'>
+              <p style={{margin:'4px 0px 4px 0px'}}>Dedicated Winner's Page</p>
+              <p style={{margin:'4px 0px 4px 0px'}}>→</p>
+            </NavLink>
           </h2>
           <img src={MUSE} style={{width:'140px'}}></img>
         </div>

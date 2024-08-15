@@ -110,7 +110,7 @@
 }
 
 .divide {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 
@@ -198,13 +198,7 @@
   color: #454545;
   font-size: 20px;
   font-weight: bold;
-  line-height: 32px;
-}
-
-.research-sub-header {
-  color: #454545;
-  font-size: 10px;
-  margin-top: 15px;
+  line-height: 36px;
 }
 
 .research-paragraph {
@@ -226,7 +220,7 @@
 }
 
 .research-list {
-  list-style-type: circle;
+  list-style-type: disc;
   margin-bottom: 40px;
 }
 
@@ -263,14 +257,8 @@
   color: #454545;
   font-size: 20px;
   font-weight: bold;
-  line-height: 32px;
+  line-height: 36px;
   margin-top: 20px;
-}
-
-.findings-sub-header {
-  color: #454545;
-  font-size: 10px;
-  margin-top: 15px;
 }
 
 .findings-paragraph {
@@ -281,7 +269,7 @@
 }
 
 .findings-list {
-  list-style-type: circle;
+  list-style-type: disc;
   margin-bottom: 40px;
 }
 
@@ -318,13 +306,7 @@
   color: #454545;
   font-size: 20px;
   font-weight: bold;
-  line-height: 32px;
-}
-
-.ideation-sub-header {
-  color: #454545;
-  font-size: 10px;
-  margin-top: 15px;
+  line-height: 36px;
 }
 
 .ideation-paragraph {
@@ -335,7 +317,7 @@
 }
 
 .ideation-list {
-  list-style-type: circle;
+  list-style-type: disc;
 }
 
 .ideation-list-item {
@@ -383,14 +365,8 @@
   color: #454545;
   font-size: 20px;
   font-weight: bold;
-  line-height: 32px;
+  line-height: 36px;
   margin-top: 20px;
-}
-
-.final-sub-header {
-  color: #454545;
-  font-size: 10px;
-  margin-top: 15px;
 }
 
 .Visualdesign {
@@ -407,15 +383,15 @@
 }
 
 .final-list {
-  list-style-type: circle;
+  list-style-type: disc;
 }
 
 .final-list-item {
   margin-top: 5px;
-  font-size: 16px;
+  font-size: 17px;
   color: #707070;
   font-weight: normal;
-  line-height: 30px;
+  line-height: 36px;
 }
 
 .final-scenarios {
@@ -483,13 +459,7 @@
   color: #454545;
   font-size: 20px;
   font-weight: bold;
-  line-height: 32px;
-}
-
-.discussion-sub-header {
-  color: #454545;
-  font-size: 10px;
-  margin-top: 15px;
+  line-height: 36px;
 }
 
 .discussion-paragraph {
