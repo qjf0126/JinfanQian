@@ -9,7 +9,7 @@ export const Banner = () => {
       <Container className="bannercontainer">
         <div className="bannertext">
           <h1>Hi, I'm Jinfan Qian</h1>
-          <p style={{fontSize:'18px'}}>I'm doing my undergraduate studies in the Art and Technology program at Zhejiang University. I have a strong passion for UX design and coding.</p>
+          <p style={{fontSize:'18px'}}>I'm an Art and Technology undergraduate at Zhejiang University, passionate about UX design and communication design.</p>
           <a href="/about"><button>more about me</button></a>
         </div>
         <div>
