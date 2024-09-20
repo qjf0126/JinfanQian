@@ -1,0 +1,108 @@
+/************ Custom Font ************/
+@font-face {
+    font-family: Grandstander;
+    src: url('../assets/font/Grandstander-VariableFont_wght.ttf');
+    font-weight: 500;
+  }
+  
+  /* Apply Grandstander font globally */
+  .project3-container {
+    font-family: Grandstander, sans-serif;
+  }
+  
+  /*Overview.css */
+  #overview3 {
+    background-color: #FAFCFE;
+    letter-spacing: 0.1em;
+  }
+  
+  .Project3-header {
+    text-align: center;
+  }
+  
+  .Project3-header2 {
+    display: flex;
+    margin: 90px;
+    margin-top: 40px;
+  }
+  
+  .Project3-sidebar {
+    flex: 2;
+    padding: 10px 20px 20px 20px;
+    margin-left: 80px;
+  }
+
+  .irregular-button {
+    background-image: url('./img/play.png'); /* Use your PNG as the background */
+    background-size: cover;
+    background-position: center;
+    border: none;
+    width: 308px; /* Adjust the size based on your PNG */
+    height: 80px;
+    margin: 10px;
+    color: #3C8CDD;
+    font-family: Grandstander, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .irregular-button:hover {
+    transform: scale(1.1); /* Enlarge the button on hover */
+  }
+  
+  .Project3-overview {
+    flex: 2;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 80px;
+  }
+  
+  .Project3-sidebar h1 {
+    margin: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .Project3-overview p {
+    margin: 10px;
+    margin-top: 20px;
+    color: #666;
+  }
+  
+  .Project3-overview button {
+    margin: 10px;
+    margin-top: 20px;
+    padding: 8px 12px;
+    background-color: #E8F2FC;
+    color: #3C8CDD;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .Project3-overview button:hover {
+    background-color: #D1E5FA;
+  }
+  
+  .Project3-overview h2 {
+    margin-bottom: 20px;
+    font-size: medium;
+    color: #3C8CDD;
+    font-weight: bold;
+  }
+  
+  .Project3-overview p {
+    line-height: 1.6;
+  }
+  
+  .Overview-header {
+    color: #454545;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
