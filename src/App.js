@@ -9,6 +9,7 @@ import Aboutcomponent from "./components/About";
 import { Footer } from "./components/Footer";
 import Project1Component from "./Project1/Project1";
 import Project2Component from "./Project2/Project2";
+import Project3Component from "./Project3/Project3";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/project1" element={<Project1 />} />
           <Route path="/project2" element={<Project2 />} />
+          <Route path="/project3" element={<Project3 />} />
         </Routes>
       </div>
     </Router>
@@ -58,6 +60,14 @@ function Project2() {
       <Project2Component />
     </div>
   )
+  }
+
+  function Project3() {
+    return (
+      <div>
+        <Project3Component />
+      </div>
+    )
   }
 
 export default App;
