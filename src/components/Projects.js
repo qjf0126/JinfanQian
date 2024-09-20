@@ -73,14 +73,15 @@ export const Projects = () => {
           <p>A survey to collect users' daily takeout habits; Visualizing the environmental impact of takeout waste.</p>
           <div>
             <button>Communication Design</button>
-            <button>Data Visualization</button>
+            <button>Game</button>
+            <button>Dataviz</button>
             <button>Individual Project</button>
           </div>
-          <NavLink to="/project2" className='clicktoexplore'>
+          <NavLink to="/project3" className='clicktoexplore'>
             Explore <ArrowRightCircle size={25} />
           </NavLink>
         </aside>
-        <NavLink to="/project2" className='renderp1'>
+        <NavLink to="/project3" className='renderp1'>
           <img src={renderp3}></img>
         </NavLink>
       </div>
