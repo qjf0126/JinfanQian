@@ -2,7 +2,7 @@
 @font-face {
     font-family: Grandstander;
     src: url('../assets/font/Grandstander-VariableFont_wght.ttf');
-    font-weight: 500;
+    font-weight: 400;
   }
   
   /* Apply Grandstander font globally */
@@ -23,13 +23,14 @@
   .Project3-header2 {
     display: flex;
     margin: 90px;
-    margin-top: 40px;
+    margin-top: 60px;
   }
   
   .Project3-sidebar {
     flex: 2;
     padding: 10px 20px 20px 20px;
     margin-left: 80px;
+    margin-right: 80px;
   }
 
   .irregular-button {
@@ -37,12 +38,12 @@
     background-size: cover;
     background-position: center;
     border: none;
-    width: 308px; /* Adjust the size based on your PNG */
-    height: 80px;
+    width: 231px; /* Adjust the size based on your PNG */
+    height: 60px;
     margin: 10px;
     color: #3C8CDD;
     font-family: Grandstander, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
     transition: transform 0.3s ease; /* Smooth hover effect */
@@ -56,12 +57,12 @@
     flex: 2;
     padding-bottom: 20px;
     padding-left: 0px;
-    padding-right: 80px;
   }
-  
-  .Project3-sidebar h1 {
+
+  .Project3-sidebar p {
     margin: 10px;
-    padding-bottom: 20px;
+    line-height: 4ch;
+    color: #666;
   }
   
   .Project3-overview p {

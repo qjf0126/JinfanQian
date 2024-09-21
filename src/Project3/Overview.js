@@ -19,6 +19,7 @@ const Overview = () => {
         {/* 左侧区块：项目标题与各项信息 */}
         <aside className="Project3-sidebar">
           <h1>Tide of Takeout Waste</h1>
+          <p>Our community is being flooded with takeout waste. Navigate your life and make choices that shape your community's future.</p>
           {/* Wrap the button in an anchor tag to link to your webpage */}
           <a href="https://qjf030126.itch.io/tide-of-takeout-waste" target="_blank" rel="noopener noreferrer">
             <button className="irregular-button">Play the Game!</button>
