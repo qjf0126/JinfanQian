@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import 'animate.css';
-import portrait from '../assets/img/portrait2.jpg';
+import portrait from '../assets/img/portrait2.png';
 
 export const Banner = () => {
 
