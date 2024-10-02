@@ -43,7 +43,7 @@
   }
   
   .topbar-button:hover {
-    color: #ffffff;
+    color: #000000;
   }
   
   .topbar-button:last-child {
@@ -53,6 +53,10 @@
   
   
   /* OverView */
+  #overview {
+    height: 90vh;
+  }
+
   .Project3-overview {
     display: flex;
     margin: 120px;
@@ -173,9 +177,107 @@
     cursor: pointer;
     font-size: 2rem;
     transform: rotate(90deg);
-    color: #D5CFCB;
+    color: rgba(255, 255, 255, 0.4);
     margin-top: 20px; /* 调整按钮与前面内容的间距 */
   }
-  
-  
-  
+
+/* BackgroundSection.css */
+#background3 {
+  letter-spacing: 0.05em;
+  background-color: #ffffff;
+}
+
+.background3-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.background3-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.background3-header {
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.background3-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.background3-image-area {
+  border: 1px solid #ccc;
+  height: 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  font-size: 16px;
+}
+
+.takeoutwaste {
+  margin-bottom: 80px;
+  border-radius: 12px;
+}
+
+/* Research */
+#research3 {
+  letter-spacing: 0.05em;
+  background-color: #ffffff;
+}
+
+.research3-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.research3-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.research3-header {
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.research3-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.research3-list-item {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #454545;
+  font-weight: bold;
+  line-height: 40px;
+  text-decoration: underline;
+  text-decoration-color: #E5F2FF;
+  text-decoration-thickness: 4px;
+  text-underline-position: under;
+  text-underline-offset: 2px;
+}  
+
+.noutensils {
+  width: 50%;
+}
