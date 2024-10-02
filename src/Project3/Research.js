@@ -19,7 +19,7 @@ const Research = () => {
             <div className="card card-body" style={{margin: '20px 0px 40px 0px', padding:'10px 20px 20px 20px',border:'none'}}>
               <img src={growth} className="growth"/>
             </div>
-            <li className="research3-list-item">Order takeout less frequently.</li>
+            <li className="research3-list-item">Select the "no utensils" option when ordering takeout.</li>
             <p className="research3-paragraph">
               many food delivery platforms offer “no utensil” options as a way to reduce the waste. Consumers can simply toggle it on.
             </p>
