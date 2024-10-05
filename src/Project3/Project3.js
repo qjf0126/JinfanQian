@@ -8,6 +8,7 @@ import Research from './Research';
 import Ideation from './Ideation';
 import UserFlow from './UserFlow';
 import DesignDetails from './DesignDetails';
+import FinalDesign from './FinalDesign';
 
 // 主组件，用于布局和导航
 class Project3 extends React.Component {
@@ -21,6 +22,7 @@ class Project3 extends React.Component {
         <Ideation />
         <UserFlow />
         <DesignDetails />
+        <FinalDesign />
       </div>
     );
   }
