@@ -281,3 +281,166 @@
 .noutensils {
   width: 50%;
 }
+
+.growth {
+  width: 90%;
+}
+
+/* IdeationSection.css */
+#ideation3 {
+  letter-spacing: 0.05em;
+  background-color: #ffffff;
+}
+
+.ideation3-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.ideation3-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ideation3-header {
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.ideation3-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.ideation3-list {
+  list-style-type: disc;
+}
+
+.ideation3-list-item {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #707070;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+/* UserFlow.css */
+#userflow3 {
+  letter-spacing: 0.05em;
+  background-color: #ffffff;
+}
+
+.userflow3-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.userflow3-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.userflow3-header {
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.userflow3-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.userflow3-list {
+  list-style-type: disc;
+}
+
+.userflow3-list-item {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #707070;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+/* DesignDetails.css */
+#details3 {
+  letter-spacing: 0.05em;
+  background-color: #ffffff;
+}
+
+.details3-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.details3-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.details3-header {
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.details3-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.details3-paragraph a {
+  color: #3C8CDD;
+  text-decoration: none;
+}
+
+.details3-paragraph a:hover {
+  text-decoration: underline;
+}
+
+.details3-list {
+  list-style-type: disc;
+}
+
+.details3-list-item {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #707070;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.RealWorldDataImg {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.RealWorldData {
+  width: 49%;
+  height: auto;
+}
