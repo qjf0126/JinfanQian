@@ -444,3 +444,63 @@
   width: 49%;
   height: auto;
 }
+
+/* FinalDesign.css */
+#final3 {
+  letter-spacing: 0.05em;
+  background-color: #ffffff;
+}
+
+.final3-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.final3-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.final3-header {
+  color: #454545;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.final3-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.final3-paragraph a {
+  color: #3C8CDD;
+  text-decoration: none;
+}
+
+.final3-paragraph a:hover {
+  text-decoration: underline;
+}
+
+.final3-list {
+  list-style-type: disc;
+}
+
+.final3-list-item {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #707070;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.scene {
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
