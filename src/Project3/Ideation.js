@@ -7,7 +7,7 @@ const Ideation = () => {
         <h2 className='ideation3-h2'>IDEATION & CONCEPT TESTING</h2>
         <h2 className="ideation3-header">Design Goal</h2>
         <p className="ideation3-paragraph">
-          By using visual storytelling, I wanted to help people truly grasp the scale of the takeout plastic waste problem and understand the harm it causes.
+          By using visual storytelling, I wanted to help people truly grasp the scale of the food delivery plastic waste problem and understand the harm it causes.
         </p>
         <h2 className="ideation3-header">Solution</h2>
         <p className="ideation3-paragraph">
