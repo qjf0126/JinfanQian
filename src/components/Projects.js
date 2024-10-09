@@ -1,6 +1,7 @@
 import renderp1 from '../assets/img/renderp1.png';
 import renderp2 from '../assets/img/renderp2.png';
 import renderp3 from '../assets/img/renderp3.png';
+import Alipay from '../assets/img/Alipay.png';
 import 'animate.css';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import { Filter } from 'react-bootstrap-icons';
@@ -102,6 +103,30 @@ export const Projects = () => {
         <NavLink to="/project2" className='renderp1'>
           <img src={renderp2}></img>
         </NavLink>
+      </div>
+      <div style={{display: 'flex', alignItems: 'center'}}>
+        <button class="btn otherproj-btn" data-bs-toggle="collapse" data-bs-target="#otherprojContent" aria-controls="otherprojContent">
+          Check all projects
+        </button>
+        <hr className="divider-line" style={{flex: 1, height: '1px'}} />
+      </div>
+      <div className="collapse" id="otherprojContent">
+        <div className="card-container">
+          <div className="image-container">
+            <NavLink to="/project3" className='renderp1'>
+              <img src={Alipay}></img>
+            </NavLink>
+          </div>
+          <div className="project-info">
+            <h2 className="project-title">Alipay stock mini-program investment education system design</h2>
+            <p className="project-subtitle">
+             Optimize Alipay's stock mini-program for stable investor returns.
+            </p>
+            <p className="project-details">
+              Research | UI Design | Prototyping | Teamwork
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
