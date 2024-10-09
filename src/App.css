@@ -493,6 +493,86 @@ img {
   letter-spacing: 0.8px;
 }
 
+.otherproj-btn {
+  display: flex;
+  align-items: center; /* Vertically aligned */
+  justify-content: space-between;
+  margin: 25px;
+  width: 18%;
+  text-align: left;
+  padding: 12px 16px;
+  letter-spacing: 0.05em;
+  background-color: #EEF5FC !important; 
+  color: #3C8CDD !important;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 18px;
+}
+
+.otherproj-btn:active {
+  color: #3C8CDD !important;
+  background-color: #D1E5FA !important;
+}
+
+.otherproj-btn::after {
+  content: '+';
+  font-size: 18px;
+  margin: 0px 10px 0px 10px;
+}
+
+.otherproj-btn[aria-expanded="true"]::after {
+  content: '-';
+  font-size: 18px;
+}
+
+.otherproj-btn[aria-expanded="false"]::after {
+  content: '+';
+  font-size: 18px;
+}
+
+.card-container {
+  width: 30%;
+  border: 1px solid #dadada;
+  background-color: white;
+  margin: 25px;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-info {
+  text-align: left;
+}
+
+.project-title {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #454545;
+}
+
+.project-subtitle {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #888;
+}
+
+.project-details {
+  font-size: 14px;
+  color: #888;
+}
+
+
 
 /* ProfilePage.css */
 .Aboutcontainer {
@@ -518,7 +598,7 @@ img {
 /************ Footer Css ************/
 .footer {
   height: 200px;
-  padding: 60px 250px 40px 250px;
+  padding: 100px 250px 40px 250px;
   background: linear-gradient(#FBFCFE, #d1e1fa);
 }
 
