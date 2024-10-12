@@ -2,6 +2,7 @@ import renderp1 from '../assets/img/renderp1.png';
 import renderp2 from '../assets/img/renderp2.png';
 import renderp3 from '../assets/img/renderp3.png';
 import Alipay from '../assets/img/Alipay.png';
+import Farmer from '../assets/img/Farmer.png';
 import 'animate.css';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import { Filter } from 'react-bootstrap-icons';
@@ -70,8 +71,8 @@ export const Projects = () => {
       </div>
       <div className="project">
         <aside className="Project-sidebar">
-          <h1>Tide of Takeout Waste</h1>
-          <p>A survey to collect users' daily takeout habits; Visualizing the environmental impact of takeout waste.</p>
+          <h1>Tide of Food Delivery Waste</h1>
+          <p>A survey to collect users' daily food ordering habits and visualize the environmental impact of food delivery waste.</p>
           <div>
             <button>Communication Design</button>
             <button>Game</button>
@@ -106,25 +107,43 @@ export const Projects = () => {
       </div>
       <div style={{display: 'flex', alignItems: 'center'}}>
         <button class="btn otherproj-btn" data-bs-toggle="collapse" data-bs-target="#otherprojContent" aria-controls="otherprojContent">
-          Check all projects
+          Check more projects
         </button>
         <hr className="divider-line" style={{flex: 1, height: '1px'}} />
       </div>
       <div className="collapse" id="otherprojContent">
-        <div className="card-container">
-          <div className="image-container">
-            <NavLink to="/project3" className='renderp1'>
-              <img src={Alipay}></img>
-            </NavLink>
+        <div className='row'>
+          <div className="card-container">
+            <div className="image-container">
+              <NavLink to="/alipaystock" className='renderp1'>
+                <img src={Alipay}></img>
+              </NavLink>
+            </div>
+            <div className="project-info">
+              <h2 className="project-title">Alipay stock mini-program investment education system</h2>
+              <p className="project-subtitle">
+                Optimize Alipay's stock mini-program for stable investor returns.
+              </p>
+              <p className="project-details">
+                Research | UI Design | Prototyping | Teamwork
+              </p>
+            </div>
           </div>
-          <div className="project-info">
-            <h2 className="project-title">Alipay stock mini-program investment education system design</h2>
-            <p className="project-subtitle">
-             Optimize Alipay's stock mini-program for stable investor returns.
-            </p>
-            <p className="project-details">
-              Research | UI Design | Prototyping | Teamwork
-            </p>
+          <div className="card-container">
+            <div className="image-container">
+              <NavLink to="/alipaystock" className='renderp1'>
+                <img src={Farmer}></img>
+              </NavLink>
+            </div>
+            <div className="project-info">
+              <h2 className="project-title">New version of "The Farmer and the River God"</h2>
+              <p className="project-subtitle">
+                A modern take on "The Farmer and the River God" that warns people about financial scams.
+              </p>
+              <p className="project-details">
+                Video | AI generated | Teamwork
+              </p>
+            </div>
           </div>
         </div>
       </div>
