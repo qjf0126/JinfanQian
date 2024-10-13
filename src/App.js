@@ -10,6 +10,7 @@ import { Footer } from "./components/Footer";
 import Project1Component from "./Project1/Project1";
 import Project2Component from "./Project2/Project2";
 import Project3Component from "./Project3/Project3";
+import AlipayStock from "./AlipayStock/AlipayStock";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/project1" element={<Project1 />} />
           <Route path="/project2" element={<Project2 />} />
           <Route path="/project3" element={<Project3 />} />
+          <Route path="/alipaystock" element={<AlipayStock />} />
         </Routes>
       </div>
     </Router>

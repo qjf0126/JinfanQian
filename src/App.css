@@ -221,6 +221,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+#dropdown-basic {
+  background: none;
+}
+.dropdown-toggle::after {
+  display: none !important; /* 隐藏默认的倒三角 */
+}
+.dropdown-menu {
+  --bs-dropdown-min-width: 4rem !important; /* 覆盖 Bootstrap 默认的最小宽度变量 */
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  border: 1px solid #AAAAAA !important;
+  border-radius: 12px !important;
+  backdrop-filter: blur(50px) !important;
+  transition: opacity 0.3s ease-in-out !important;
+  margin-top: 10px !important;
+  margin-left: 4px !important;
+  padding: 4px !important;
+}
+
+.dropdown-item {
+  color: #707070 !important;
+  padding: 10px 20px !important;
+  text-align: center !important;
+  border-radius: 8px !important;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255) !important;
+}
+
 
 
 /************ Banner Css ************/
