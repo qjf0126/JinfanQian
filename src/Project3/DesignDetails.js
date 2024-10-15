@@ -8,6 +8,19 @@ const DesignDetails = () => {
     <section id="details3">
       <div className="details3-container">
         <h2 className='details3-h2'>DESIGN DETAILS</h2>
+        <p className="details3-paragraph">
+          Based on user research findings and comparative analyses, I flesh out the design:
+        </p>
+        <h2 className="details3-header">Final user flow</h2>
+        <div style={{ width: '640px', height: '540px', margin: '10px', position: 'relative' }}>
+          <iframe
+            allowFullScreen
+            style={{ width: '840px', height: '540px' }}
+            src="https://lucid.app/documents/embedded/be40753d-0d6f-42fe-b9e9-1b1528c1781d"
+            id="JgWeomgvMi1x"
+            title="User Flow Diagram"
+          ></iframe>
+        </div>
         <h2 className="details3-header">Game Design</h2>
         <p className="details3-paragraph">
           I took inspiration from the narrative style of <a href="https://www.unep.org/news-and-stories/story/experience-your-carbon-footprint-vr" target="_blank" rel="noopener noreferrer">"Experience Your Carbon Footprint in VR"</a> for "Tide of Food Delivery Waste," using a storytelling approach to engage players by immersing them directly in the experience and making the impact of their actions more tangible.

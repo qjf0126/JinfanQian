@@ -1,6 +1,6 @@
 import React from 'react';
 import divide from "./img/divide.png";
-import fooddeliverywaste from "./img/fooddeliverywaste.jpg";
+import fooddeliverywaste from "./img/deliverywaste.png";
 
 const Background = () => {
   return (

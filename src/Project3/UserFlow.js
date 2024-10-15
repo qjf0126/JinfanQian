@@ -1,4 +1,6 @@
 import React from 'react';
+import Paper01 from "./img/paper01.png";
+import Paper02 from "./img/paper02.png";
 
 const UserFlow = () => {
   return (
@@ -6,16 +8,11 @@ const UserFlow = () => {
       <div className="userflow3-container">
         <h2 className="userflow3-h2">USER FLOW & WIREFRAME</h2>
         <p className="userflow3-paragraph">
-          I outlined the user flow and created a paper prototype to test the game and the flow with 4 participants.
+          I created paper prototype to test the game and the flow with 4 participants.
         </p>
-        <div style={{ width: '640px', height: '540px', margin: '10px', position: 'relative' }}>
-          <iframe
-            allowFullScreen
-            style={{ width: '840px', height: '540px' }}
-            src="https://lucid.app/documents/embedded/be40753d-0d6f-42fe-b9e9-1b1528c1781d"
-            id="JgWeomgvMi1x"
-            title="User Flow Diagram"
-          ></iframe>
+        <div className='Paper'>
+          <img src={Paper01} className="PaperImg"></img>
+          <img src={Paper02} className="PaperImg"></img>
         </div>
         <h2 className="userflow3-header">Problems:</h2>
         <ul className="userflow3-list" style={{margin:'0px 0px 20px 0px'}}>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom'; // 引入 NavLink
-import 'bootstrap-icons/font/bootstrap-icons.css'; // 引入 Bootstrap Icons 样式
+import { NavLink } from 'react-router-dom';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const TopBar = () => {
   const [showTopBar, setShowTopBar] = useState(true);

@@ -216,8 +216,8 @@
 }
 
 .fooddeliverywaste {
-  margin-bottom: 80px;
-  border-radius: 12px;
+  margin-bottom: 60px;
+  width: 90%;
 }
 
 /* Research */
@@ -264,7 +264,7 @@
   text-decoration-color: #E5F2FF;
   text-decoration-thickness: 4px;
   text-underline-position: under;
-  text-underline-offset: 2px;
+  text-underline-offset: -2px;
 }  
 
 .noutensils {
@@ -282,7 +282,6 @@
 }
 
 .ideation3-container {
-  color: #333;
   padding: 20px;
   margin-left: 25%;
   margin-right: 20%;
@@ -307,18 +306,6 @@
   font-size: 16px;
   line-height: 30px;
   margin-top: 10px;
-}
-
-.ideation3-list {
-  list-style-type: disc;
-}
-
-.ideation3-list-item {
-  margin-top: 5px;
-  font-size: 16px;
-  color: #707070;
-  font-weight: normal;
-  line-height: 30px;
 }
 
 /* UserFlow.css */
@@ -365,6 +352,18 @@
   color: #707070;
   font-weight: normal;
   line-height: 30px;
+}
+
+.Paper {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.PaperImg {
+  width: 49%;
+  height: auto;
 }
 
 /* DesignDetails.css */
