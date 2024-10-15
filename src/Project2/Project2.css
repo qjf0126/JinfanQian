@@ -168,8 +168,8 @@
   margin: 10px 0px 60px 0px;
   text-decoration: underline;
   text-decoration-color: #E5F2FF;
-  text-decoration-thickness: 6px;
-  text-underline-offset: 8px;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 2px;
 }
 
 
@@ -401,7 +401,7 @@
   text-decoration-color: #E5F2FF;
   text-decoration-thickness: 4px;
   text-underline-position: under;
-  text-underline-offset: 2px;
+  text-underline-offset: -2px;
 }
 
 .purchase {
