@@ -52,10 +52,10 @@ const FinalDesign = () => {
           <li className="final2-list-item">A 'Skip' button is set on the onboarding splash screen, allowing users to explore the game community directly if they don't want to subscribe to games officially recommended for them.</li>
           <li className="final2-list-item">A toggle button on subscription pages provides detailed game information for users.</li>
         </div>
+        <img src={final1}/>
+        <img src={final2}/>
+        <img src={final3} style={{marginBottom:'20px'}}/>
       </div>
-      <img src={final1}/>
-      <img src={final2}/>
-      <img src={final3} style={{marginBottom:'20px'}}/>
       <div className="final2-container">
         <p className='final2-sub-header'># Visit a game hub</p>
         <p className='final2-paragraph'> The game list is set on the homepage of the game community, providing users with a quick entry to subscribed game hubs. Users can also find a game hub through direct search.</p>
