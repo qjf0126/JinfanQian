@@ -315,8 +315,7 @@
 }
 
 .userflow3-container {
-  color: #333;
-  padding: 20px;
+  padding-bottom: 20px;
   margin-left: 25%;
   margin-right: 20%;
 }
@@ -343,7 +342,8 @@
 }
 
 .userflow3-list {
-  list-style-type: disc;
+  list-style-type: none;
+  padding-left: 1rem;
 }
 
 .userflow3-list-item {

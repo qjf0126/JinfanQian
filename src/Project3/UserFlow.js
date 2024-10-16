@@ -14,18 +14,25 @@ const UserFlow = () => {
           <img src={Paper01} className="PaperImg"></img>
           <img src={Paper02} className="PaperImg"></img>
         </div>
-        <h2 className="userflow3-header">Problems:</h2>
-        <ul className="userflow3-list" style={{margin:'0px 0px 20px 0px'}}>
-          <li className="userflow3-paragraph">Lacking a clear conclusion and summary of player actions.</li>
-          <li className="userflow3-paragraph">Lacking sufficient feedback during gameplay.</li>
-          <li className="userflow3-paragraph">Lacking clarity on the environmental impact of behavior changes.</li>
-        </ul>
-        <h2 className="userflow3-header">Iteration:</h2>
-        <ul className="userflow3-list" style={{margin:'0px 0px 60px 0px'}}>
-          <li className="userflow3-paragraph">Allowing players to replay, share the game, and download results reports.</li>
-          <li className="userflow3-paragraph">Providing environmental knowledge throughout gameplay.</li>
-          <li className="userflow3-paragraph">Enabling behavior changes and displaying the resulting environmental impact.</li>
-        </ul>
+        <div className="userflow3-container" style={{margin:'0px 0px 60px 0px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px'}}>
+          <div className="userflow3-column">
+            <h2 className="userflow3-header">Problems</h2>
+            <ol className="userflow3-list">
+              <li className="userflow3-paragraph" id="problem1"><strong>(1) </strong>Users have questions about the final results and want to learn more.</li>
+              <li className="userflow3-paragraph" id="problem2"><strong>(2) </strong>Feel lost due to inadequate engagement and long process.</li>
+              <li className="userflow3-paragraph" id="problem3"><strong>(3) </strong>Lack of navigation options and a clear end.</li>
+            </ol>
+          </div>
+          <div className="userflow3-column">
+            <h2 className="userflow3-header">Solutions</h2>
+            <ol className="userflow3-list">
+              <li className="userflow3-paragraph" id="solution1"><strong>(1) </strong>Provide references and explanations of the results.</li>
+              <li className="userflow3-paragraph" id="solution2-1"><strong>(2.1) </strong>Involve users by sharing notes and tips during the gameplay once an option was selected.</li>
+              <li className="userflow3-paragraph" id="solution2-2"><strong>(2.2) </strong>Cut down the number of scenarios.</li>
+              <li className="userflow3-paragraph" id="solution3"><strong>(3) </strong>Streamline the game with a clearer end and provide navigation to previous scenarios.</li>
+            </ol>
+          </div>
+        </div>
       </div>
     </section>
   );
