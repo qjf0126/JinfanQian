@@ -6,6 +6,7 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import ResumeEN from '../assets/img/Resume (EN).pdf';
 import ResumeCN from '../assets/img/Resume (CN).pdf';
+import Q from '../assets/img/Q.png';
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -32,7 +33,7 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
-          <p style={{ fontSize: '36px', margin: '0' }}>👻</p>
+          <img src={Q} className="icon"></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
