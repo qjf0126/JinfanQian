@@ -104,11 +104,16 @@ span.navbar-text {
   display: flex;
   align-items: center;
 }
+
+.icon {
+  width: 25%;
+  margin: 6px;
+}
+
 .social-icon {
   display: flex;
   margin: 0px 16px 0px 16px;
 }
-
 .social-icon a {
   width: 40px;
   height: 40px;
@@ -333,8 +338,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
 }
 .banner button:hover {
-  color: #007AFF;
-  border: solid 1px #007AFF;
+  border: solid 1px #3C8CDD;
   background-color: white;
 }
 .banner button svg {
