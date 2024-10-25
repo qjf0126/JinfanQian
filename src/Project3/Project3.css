@@ -440,6 +440,11 @@
   margin-bottom: 60px;
 }
 
+pre {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 /* FinalDesign.css */
 #final3 {
   letter-spacing: 0.05em;
