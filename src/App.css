@@ -325,6 +325,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner a {
   text-decoration: none;
 }
+.zju-link {
+  color: #707070;
+  text-decoration: none;
+}
+
+.zju-link:hover {
+  color: #454545;
+  font-weight: bold;
+}
 .banner button {
   color: #3C8CDD;
   padding: 12px 20px 12px 20px;
