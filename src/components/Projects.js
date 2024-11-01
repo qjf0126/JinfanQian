@@ -120,12 +120,11 @@ export const Projects = () => {
               </NavLink>
             </div>
             <div className="project-info">
-              <h2 className="project-title">Alipay stock mini-program investment education system</h2>
+              <h2 className="project-title">
+                <NavLink to="/alipaystock" className='linktoOthers'>Alipay stock investment education system</NavLink>
+              </h2>
               <p className="project-subtitle">
                 Optimize Alipay's stock mini-program for stable investor returns.
-              </p>
-              <p className="project-details">
-                Research | UI Design | Prototyping | Teamwork
               </p>
             </div>
           </div>
@@ -136,12 +135,11 @@ export const Projects = () => {
               </NavLink>
             </div>
             <div className="project-info">
-              <h2 className="project-title">New version of "The Farmer and the River God"</h2>
+              <h2 className="project-title">
+                <NavLink to="/alipaystock" className='linktoOthers'>New version of "The Farmer and the River God"</NavLink>
+              </h2>
               <p className="project-subtitle">
                 A modern take on "The Farmer and the River God" that warns people about financial scams.
-              </p>
-              <p className="project-details">
-                Video | AI generated | Teamwork
               </p>
             </div>
           </div>
