@@ -339,12 +339,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 12px 20px 12px 20px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 25px;
-  font-weight: 100;
   font-size: 20px;
   margin-top: 30px;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  font-weight: 400;
 }
 .banner button:hover {
   border: solid 1px #3C8CDD;
@@ -658,24 +658,44 @@ img {
 
 
 /* ProfilePage.css */
-.Aboutcontainer {
-  margin-top: 10%;
-  margin-left: 33%;
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;   
+}
+
+.aboutContent {
+  margin: auto;
+  width: 55%;
+  margin-top: 14%;
   padding: 20px;
-  font-size: 24px;
-  color: #454545;
-  font-weight: 400;
-  line-height: 64px;
-
+  color: #707070;
+  align-items: center;
+  display: flex;
 }
 
-.skyimg {
-  width: 50%;
-  margin-bottom: 5%;
+.email-info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  color: #707070;
 }
 
-.emoji {
-  font-size: 1.5em;
+.email-info .me-2 {
+  font-size: 18px;
+  color: #707070;
+}
+
+.email-info span {
+  margin-left: 4px;
+}
+
+.aboutText {
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  margin-left: 80px;
+  width: 200%;
 }
 
 /************ Footer Css ************/
