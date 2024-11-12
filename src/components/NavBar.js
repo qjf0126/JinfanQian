@@ -33,7 +33,7 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
-          <img src={Q} className="icon"></img>
+          <img src={Q} className="icon" alt="Brand Icon"></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -65,7 +65,7 @@ export const NavBar = () => {
                 Resume
               </Dropdown.Toggle>
 
-              <Dropdown.Menu>
+              <Dropdown.Menu className={scrolled ? 'scrolled-border' : ''}>
                 <Dropdown.Item
                   onClick={() => window.open(ResumeEN, "_blank")}
                 >
@@ -82,9 +82,9 @@ export const NavBar = () => {
 
           </Nav>
           <div className="social-icon">
-            <a href="#"><img src={navIcon1} alt="Icon" /></a>
-            <a href="#"><img src={navIcon2} alt="Icon" /></a>
-            <a href="#"><img src={navIcon3} alt="Icon" /></a>
+            <a href="https://www.linkedin.com/in/%E5%8A%B2%E5%B8%86-%E9%92%B1-60a783332/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="LinkedIn Icon" /></a>
+            <a href="#"><img src={navIcon2} alt="Social Icon" /></a>
+            <a href="#"><img src={navIcon3} alt="Social Icon" /></a>
           </div>
         </Navbar.Collapse>
       </Container>
@@ -93,5 +93,6 @@ export const NavBar = () => {
 }
 
 export default NavBar;
+
 
 
