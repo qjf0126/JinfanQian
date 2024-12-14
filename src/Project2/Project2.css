@@ -58,7 +58,7 @@
 }
 
 .Project2-sidebar {
-  flex: 2;
+  flex: 3;
   padding: 20px;
   margin-left: 80px;
 }
@@ -76,7 +76,7 @@
 
 .Project2-overview p {
   margin: 10px;
-  margin-top: 20px;
+  margin-top: 15px;
   color: #666;
 }
 
@@ -114,6 +114,25 @@
   line-height: 36px;
   text-align: center;
   margin-bottom: 100px;
+}
+
+.Project2-background {
+  flex: 3;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 80px;
+  padding-top: 40px;
+}
+
+.Project2-background h2 {
+  margin-bottom: 20px;
+  font-size: medium;
+  color: #3C8CDD;
+  font-weight: bold;
+}
+
+.Project2-background p {
+  line-height: 1.7;
 }
 
 /* IntroSection.css */
@@ -567,48 +586,27 @@
   margin-bottom: 80px;
 }
 
-/* DiscussionSection.css */
-#discussion2 {
+/* FooterSection.css */
+#footer2 {
   letter-spacing: 0.1em;
-  background-color: #FAFCFE;
-  padding: 60px 0px 200px 0px;
+  background: linear-gradient(#FAFCFE, #d1e1fa);
+  padding: 60px 0px 60px 0px;
 }
 
-.discussion2-container {
-  color: #333;
+.footer2-container {
+  color: #3C8CDD;
   padding: 20px;
   margin-left: 25%;
   margin-right: 20%;
+  display: flex;
 }
 
-.discussion2-container2 {
-  margin: 10%;
-}
-
-.discussion2-h2 {
-  color: #3C8CDD;
-  font-size: medium;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.discussion2-header {
-  color: #454545;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 36px;
-}
-
-.discussion2-sub-header {
-  color: #454545;
-  font-size: 10px;
-  margin-top: 15px;
-}
-
-.discussion2-paragraph {
-  color: #707070;
-  font-size: 16px;
-  line-height: 36px;
-  margin-top: 10px;
+.footer2-header {
+  color: #263340;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-right: 100px;
+  margin-top: 28px;
 }
 

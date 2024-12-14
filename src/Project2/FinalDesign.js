@@ -54,17 +54,22 @@ const FinalDesign = () => {
         </div>
         <img src={final1}/>
         <img src={final2}/>
-        <img src={final3} style={{marginBottom:'20px'}}/>
+        <img src={final3} style={{marginBottom: '20px'}}/>
       </div>
       <div className="final2-container">
         <p className='final2-sub-header'># Visit a game hub</p>
         <p className='final2-paragraph'> The game list is set on the homepage of the game community, providing users with a quick entry to subscribed game hubs. Users can also find a game hub through direct search.</p>
       </div>
-      <img src={final4} style={{marginBottom:'40px'}}/>
+      <img src={final4} style={{marginBottom: '40px'}}/>
       <div className="final2-container">
         <p className='final2-sub-header'># Content-driven shopping experience</p>
-        <p className='final2-paragraph'>By placing product links in posts, game operators allow players to directly purchase game-related content while browsing the game community.</p>
-        <img src={shopping} style={{width:'45%'}}/>
+        <div style={{display: 'flex'}}>
+          <img src={shopping} style={{width: '45%', marginRight: '40px'}}/>
+          <div style={{marginTop: '40px'}}>
+            <p className='final2-paragraph'>By embedding product links in posts, game operators enable players to seamlessly purchase game-related content while engaging with the game community.</p>
+            <p className='final2-paragraph'>This change will allow users to seamlessly purchase game-related content while browsing new official releases. By adding this feature to the mobile app version of Steam, players can access game forums and make purchases in real time, even during situations like their commute. This extends the Steam purchasing experience beyond just the desktop version, making it more convenient and accessible across different contexts.</p>
+          </div>
+        </div>
       </div>
     </section>
   );
