@@ -602,11 +602,36 @@
 }
 
 .footer2-header {
+  width: 100%;
   color: #263340;
   font-size: 24px;
   font-weight: 300;
   line-height: 32px;
-  margin-right: 100px;
   margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
 }
 
+.nextProj {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #263340;
+  padding: 10px 20px 10px 20px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: solid 1px #263340;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 40px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nextProj:hover {
+  color: #3C8CDD;
+  border: solid 1px #3C8CDD;
+  background-color: white;
+}
