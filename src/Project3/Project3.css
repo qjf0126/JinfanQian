@@ -489,22 +489,53 @@ pre {
   text-decoration: underline;
 }
 
-.final3-list {
+/* ReferenceSection.css */
+#reference3 {
+  letter-spacing: 0.05em;
+  background-color: #ffffff;
+}
+
+.reference3-container {
+  color: #333;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+  padding-bottom: 120px;
+}
+
+.reference3-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.reference3-list {
   list-style-type: disc;
 }
 
-.final3-list-item {
+.reference3-list-item {
   margin-top: 5px;
   font-size: 16px;
   color: #707070;
   font-weight: normal;
-  line-height: 30px;
+  line-height: 24px;
 }
 
-.scene {
-  border-radius: 12px;
-  margin-bottom: 40px;
-  width: 95%;
+.reference3-paragraph {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.reference3-list a {
+  color: #707070;
+  text-decoration: none;
+}
+
+.reference3-list a:hover {
+  text-decoration: underline;
 }
 
 /* FooterSection.css */
@@ -523,10 +554,12 @@ pre {
 }
 
 .footer3-header {
+  width: 100%;
   color: #263340;
   font-size: 24px;
   font-weight: 300;
   line-height: 32px;
-  margin-right: 100px;
   margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
 }

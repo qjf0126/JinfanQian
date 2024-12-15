@@ -10,6 +10,7 @@ import UserFlow from './UserFlow';
 import DesignDetails from './DesignDetails';
 import FinalDesign from './FinalDesign';
 import Footer from './Footer';
+import Reference from './Reference';
 
 // 主组件，用于布局和导航
 class Project3 extends React.Component {
@@ -24,6 +25,7 @@ class Project3 extends React.Component {
         <UserFlow />
         <DesignDetails />
         <FinalDesign />
+        <Reference />
         <Footer />
       </div>
     );
