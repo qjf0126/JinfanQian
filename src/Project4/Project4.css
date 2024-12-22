@@ -1,0 +1,203 @@
+/*Abstract.css */
+#abstract4 {
+  background-color: #ffffff;
+  letter-spacing: 0.1em;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+#Info1 {
+  width: 90%;
+}
+
+.Project4-header {
+  text-align: center;
+  width: 50%;
+  margin-right: 60px;
+  margin-left: 160px;
+  display: flex;
+  align-items: center;
+}
+
+.Project4-header2 {
+  margin-top: 80px;
+  width: 50%;
+}
+
+.Project4-sidebar {
+  padding: 20px;
+}
+
+.Project4-abstract {
+  padding: 40px;
+  width: 450px;
+}
+
+.Project4-sidebar h1 {
+  margin: 10px;
+}
+
+.Project4-sidebar p {
+  margin: 10px;
+  margin-top: 20px;
+  color: #666;
+}
+
+.Project4-sidebar button {
+  margin: 10px;
+  margin-top: 20px;
+  padding: 8px 12px;
+  background-color: #E8F2FC;
+  color: #3C8CDD;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.Project4-sidebar button:hover {
+  background-color: #D1E5FA;
+}
+
+.Project4-abstract h2 {
+  margin-bottom: 20px;
+  font-size: medium;
+  color: #3C8CDD;
+  font-weight: bold;
+}
+
+.Project4-abstract p {
+  line-height: 1.7;
+}
+
+/* ResearchSection.css */
+#research4 {
+  letter-spacing: 0.1em;
+  background-color: #ffffff;
+}
+
+.dividerP4 {
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: none;
+}
+
+.research4-container {
+  color: #333;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.research4-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.research4-header {
+  color: #454545;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.research4-paragraph {
+  color: #707070;
+  font-size: 14px;
+  line-height: 1.7em;
+  margin-top: 10px;
+}
+
+/* QuantitativeSection.css */
+#quantitative4 {
+  letter-spacing: 0.1em;
+  background-color: #ffffff;
+}
+
+.dividerP4 {
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: none;
+}
+
+.quantitative4-container {
+  color: #333;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.quantitative4-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.quantitative4-header {
+  color: #454545;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.quantitative4-paragraph {
+  color: #707070;
+  font-size: 14px;
+  line-height: 1.7em;
+  margin-top: 10px;
+}
+
+/* PrototypingSection.css */
+#prototyping4 {
+  letter-spacing: 0.1em;
+  background-color: #ffffff;
+}
+
+.prototyping4-container {
+  color: #333;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.prototyping4-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.prototyping4-header {
+  color: #454545;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.prototyping4-paragraph {
+  color: #707070;
+  font-size: 14px;
+  line-height: 1.7em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.prototyping4-list {
+  list-style-type: disc;
+  margin-bottom: 40px;
+}
+
+.prototyping4-list-item {
+  font-size: 14px;
+  color: #707070;
+  font-weight: normal;
+  line-height: 1.7em;
+}
