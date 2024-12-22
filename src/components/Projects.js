@@ -1,6 +1,7 @@
 import renderp1 from '../assets/img/renderp1.png';
 import renderp2 from '../assets/img/renderp2.png';
 import renderp3 from '../assets/img/renderp3.png';
+import renderp4 from '../assets/img/renderp4.png';
 import Alipay from '../assets/img/Alipay.png';
 import Farmer from '../assets/img/Farmer.png';
 import 'animate.css';
@@ -52,7 +53,7 @@ export const Projects = () => {
           )}
         </div>
       </div>
-      <div className="project">
+      <div className="project" style={{marginTop: '20px'}}>
         <aside className="Project-sidebar">
           <h1>PlanWings</h1>
           <p>PlanWings is an application that allows you to travel with peace of mind in unfamiliar airports.</p>
@@ -67,6 +68,24 @@ export const Projects = () => {
         </aside>
         <NavLink to="/project1" className='renderp1'>
           <img src={renderp1}></img>
+        </NavLink>
+      </div>
+      <div className="project">
+        <aside className="Project-sidebar">
+          <h1>Steam App Redesign</h1>
+          <p>Optimize the gaming community user experience on the Steam Mobile.</p>
+          <div>
+            <button>UX Design</button>
+            <button>Case Study</button>
+            <button>Mobile</button>
+            <button>Individual Project</button>
+          </div>
+          <NavLink to="/project2" className='clicktoexplore'>
+            Explore <ArrowRightCircle size={25} />
+          </NavLink>
+        </aside>
+        <NavLink to="/project2" className='renderp1'>
+          <img src={renderp2}></img>
         </NavLink>
       </div>
       <div className="project">
@@ -87,22 +106,21 @@ export const Projects = () => {
           <img src={renderp3}></img>
         </NavLink>
       </div>
-      <div className="project">
+      <div className="project" style={{marginBottom: '20px'}}>
         <aside className="Project-sidebar">
-          <h1>Steam app redesign</h1>
-          <p>Optimize the gaming community user experience on the Steam Mobile.</p>
+          <h1>InfoWhisper</h1>
+          <p>InfoWhisper is an interactive phone case bridging the gap between screen and touch, translating financial activity into tactile feedback.</p>
           <div>
-            <button>UX Design</button>
-            <button>Case Study</button>
-            <button>Mobile</button>
-            <button>Individual Project</button>
+            <button>Tangible Interaction</button>
+            <button>Physical Prototyping</button>
+            <button>3D Modeling</button>
           </div>
-          <NavLink to="/project2" className='clicktoexplore'>
+          <NavLink to="/project4" className='clicktoexplore'>
             Explore <ArrowRightCircle size={25} />
           </NavLink>
         </aside>
-        <NavLink to="/project2" className='renderp1'>
-          <img src={renderp2}></img>
+        <NavLink to="/project4" className='renderp1'>
+          <img src={renderp4}></img>
         </NavLink>
       </div>
       <div style={{display: 'flex', alignItems: 'center'}}>
