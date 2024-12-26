@@ -53,7 +53,7 @@ export const Projects = () => {
           )}
         </div>
       </div>
-      <div className="project" style={{marginTop: '20px'}}>
+      <div className="project">
         <aside className="Project-sidebar">
           <h1>PlanWings</h1>
           <p>PlanWings is an application that allows you to travel with peace of mind in unfamiliar airports.</p>
@@ -72,20 +72,19 @@ export const Projects = () => {
       </div>
       <div className="project">
         <aside className="Project-sidebar">
-          <h1>Steam App Redesign</h1>
-          <p>Optimize the gaming community user experience on the Steam Mobile.</p>
+          <h1>InfoWhisper</h1>
+          <p>InfoWhisper is an interactive phone case bridging the gap between screen and touch, translating financial activity into tactile feedback.</p>
           <div>
-            <button>UX Design</button>
-            <button>Case Study</button>
-            <button>Mobile</button>
-            <button>Individual Project</button>
+            <button>Tangible Interaction</button>
+            <button>Physical Prototyping</button>
+            <button>3D Modeling</button>
           </div>
-          <NavLink to="/project2" className='clicktoexplore'>
+          <NavLink to="/project4" className='clicktoexplore'>
             Explore <ArrowRightCircle size={25} />
           </NavLink>
         </aside>
-        <NavLink to="/project2" className='renderp1'>
-          <img src={renderp2}></img>
+        <NavLink to="/project4" className='renderp1'>
+          <img src={renderp4}></img>
         </NavLink>
       </div>
       <div className="project">
@@ -108,19 +107,20 @@ export const Projects = () => {
       </div>
       <div className="project" style={{marginBottom: '20px'}}>
         <aside className="Project-sidebar">
-          <h1>InfoWhisper</h1>
-          <p>InfoWhisper is an interactive phone case bridging the gap between screen and touch, translating financial activity into tactile feedback.</p>
+          <h1>Steam App Redesign</h1>
+          <p>Optimize the gaming community user experience on the Steam Mobile.</p>
           <div>
-            <button>Tangible Interaction</button>
-            <button>Physical Prototyping</button>
-            <button>3D Modeling</button>
+            <button>UX Design</button>
+            <button>Case Study</button>
+            <button>Mobile</button>
+            <button>Individual Project</button>
           </div>
-          <NavLink to="/project4" className='clicktoexplore'>
+          <NavLink to="/project2" className='clicktoexplore'>
             Explore <ArrowRightCircle size={25} />
           </NavLink>
         </aside>
-        <NavLink to="/project4" className='renderp1'>
-          <img src={renderp4}></img>
+        <NavLink to="/project2" className='renderp1'>
+          <img src={renderp2}></img>
         </NavLink>
       </div>
       <div style={{display: 'flex', alignItems: 'center'}}>
