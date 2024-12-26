@@ -1,4 +1,4 @@
-import render1 from "./img/render1.png";
+import finalprototype from "./img/finalprototype.png";
 import './Project4.css'
 import { useEffect } from 'react';
 
@@ -11,7 +11,7 @@ const Abstract = () => {
   return (
     <section id="abstract4">
       <header className="Project4-header">
-        <img src={render1} alt="" id="Info1"/>
+        <img src={finalprototype} alt="" id="Info1"/>
       </header>
 
       <div className="Project4-header2">
@@ -21,7 +21,9 @@ const Abstract = () => {
           <p>November 2024 - December 2024</p>
           <button>Tangible Interaction</button>
           <button>Physical Prototyping</button>
+          <button>3D Modeling</button>
           <button>Silicone Airbags</button>
+          <button>Arduino Development</button>
         </aside>
         {/* 右侧区块：项目背景介绍 */}
         <section className="Project4-abstract">

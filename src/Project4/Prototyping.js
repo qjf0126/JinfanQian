@@ -19,12 +19,12 @@ const Prototyping = () => {
                   In the first version of the prototype design, I created silicone airbags using modeling and 3D printing technology.
                 </p>
                 <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '40px'}}>
-                  <div style={{width: '47%'}}>
-                    <img src={Prototyping1} alt="" style={{maxWidth: '100%', height: 'auto'}}/>
+                  <div style={{width: '49%'}}>
+                    <img src={Prototyping1} alt="" style={{maxWidth: '100%', height: 'auto', marginBottom: '10px'}}/>
                     <p style={{fontSize: '12px', color: '#666', textAlign: 'center'}}>3D modeling in Rhino</p>
                   </div>
-                  <div style={{width: '47%'}}>
-                    <img src={painter3d} alt="" style={{maxWidth: '100%', height: 'auto'}}/>
+                  <div style={{width: '49%'}}>
+                    <img src={painter3d} alt="" style={{maxWidth: '100%', height: 'auto', marginBottom: '10px'}}/>
                     <p style={{fontSize: '12px', color: '#666', textAlign: 'center'}}>3D printing result</p>
                   </div>
                 </div>
