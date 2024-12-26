@@ -13,7 +13,7 @@ const Footer = () => {
         <section id="footer3">
             <div className="footer3-container">
                 <h2 className="footer3-header">
-                  <NavLink to="https://museaward.com/winner-info.php?id=229805" className="winnerpage">
+                  <NavLink to="/project2" className="winnerpage">
                     <p style={{ margin: '4px 4px 4px 0px' }}>Next Project: Steam App Redesign</p>
                     <p style={{ margin: '4px 0px 4px 4px' }}>→</p>
                   </NavLink>
