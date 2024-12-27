@@ -1,6 +1,6 @@
 // components/Prototyping.js
 import React from 'react';
-import sketch from "./img/sketch.png";
+import arduinosetup from "./img/arduinosetup.jpg";
 import Prototyping1 from "./img/prototyping1.png";
 import painter3d from "./img/painter3d.png";
 
@@ -11,7 +11,7 @@ const Prototyping = () => {
             <hr className="divider-line" />
         </div>
         <div className="prototyping4-container">
-            <h2 className='prototyping4-h2'>PROTOTYPING</h2>
+            <h2 className='prototyping4-h2'>EARLY PROTOTYPE</h2>
             <div style={{display: 'flex'}}>
               <div style={{marginRight: '30px', width: '50%'}}>
                 <h2 className="prototyping4-header">Physical Prototype Design</h2>
@@ -42,7 +42,7 @@ const Prototyping = () => {
                 <p className="prototyping4-paragraph">
                   I use a balloon as a substitute for the InfoWhisper and control the air pump with Arduino for inflation and deflation experiments.
                 </p>
-                <img src={sketch} alt=""/>
+                <img src={arduinosetup} alt=""/>
               </div>
             </div>
         </div>

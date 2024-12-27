@@ -11,7 +11,7 @@ const Research = () => {
             <hr className="divider-line" />
         </div>
         <div className="research4-container">
-            <h2 className='research4-h2'>RESEARCH</h2>
+            <h2 className='research4-h2'>RESEARCH & IDEATION</h2>
             <div style={{display: 'flex'}}>
               <div style={{marginRight: '30px', width: '50%'}}>
                 <h2 className="research4-header">Inflatable Structure</h2>
@@ -32,7 +32,7 @@ const Research = () => {
               <div style={{marginLeft: '30px', width: '50%'}}>
                 <h2 className="research4-header">What if I Visualize Digital Information Using Inflatable Structure </h2>
                 <p className="research4-paragraph">
-                  I designed an interactive airbag device that transforms digital information into physical sensations. InfoWhisper consists of multiple independent airbags, which inflate to deliver tactile feedback when the phone receives information.
+                  I designed an interactive inflatable device that transforms digital information into physical sensations. InfoWhisper consists of multiple independent airbags, which inflate to deliver tactile feedback when the phone receives information.
                 </p>
                 <img src={sketch} alt=""/>
               </div>

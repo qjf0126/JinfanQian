@@ -1,6 +1,6 @@
 // components/Quantitative.js
 import React from 'react';
-import scenario from "./img/scenario1,2.png";
+import scenario from "./img/scenario123.png";
 
 const Quantitative = () => {
   return (
