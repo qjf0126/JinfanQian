@@ -1,6 +1,6 @@
 // components/Prototyping.js
 import React from 'react';
-import arduinosetup from "./img/arduinosetup.jpg";
+import arduinosetup from "./img/arduinosetup.png";
 import Prototyping1 from "./img/prototyping1.png";
 import painter3d from "./img/painter3d.png";
 
@@ -18,7 +18,7 @@ const Prototyping = () => {
                 <p className="prototyping4-paragraph">
                   In the first version of the prototype design, I created silicone airbags using modeling and 3D printing technology.
                 </p>
-                <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '40px'}}>
+                <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '20px'}}>
                   <div style={{width: '49%'}}>
                     <img src={Prototyping1} alt="" style={{maxWidth: '100%', height: 'auto', marginBottom: '10px'}}/>
                     <p style={{fontSize: '12px', color: '#666', textAlign: 'center'}}>3D modeling in Rhino</p>
@@ -40,9 +40,12 @@ const Prototyping = () => {
               <div style={{marginLeft: '30px', width: '50%'}}>
                 <h2 className="prototyping4-header">Arduino Setup</h2>
                 <p className="prototyping4-paragraph">
-                  I use a balloon as a substitute for the InfoWhisper and control the air pump with Arduino for inflation and deflation experiments.
+                  I built an air inflating and deflating device using Arduino and experimented with a 3D-printed "infowhisper." Due to the material of the airbag being too stiff, the inflation of the airbag was not very noticeable in the 3D-printed "infowhisper."
                 </p>
-                <img src={arduinosetup} alt=""/>
+                <div>
+                  <img src={arduinosetup} alt="" style={{marginBottom: '10px'}}/>
+                  <p style={{fontSize: '12px', color: '#666', textAlign: 'center'}}>Materials: Arduino UNO, L298N, Air pumps, Air valve, Breadboard</p>
+                </div>
               </div>
             </div>
         </div>

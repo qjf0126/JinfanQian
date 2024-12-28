@@ -201,6 +201,53 @@
   line-height: 1.7em;
 }
 
+/* MoldSection.css */
+#mold4 {
+  letter-spacing: 0.1em;
+  background-color: #ffffff;
+}
+
+.mold4-container {
+  color: #333;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.mold4-h2 {
+  color: #3C8CDD;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.mold4-header {
+  color: #454545;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.mold4-paragraph {
+  color: #707070;
+  font-size: 14px;
+  line-height: 1.7em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mold4-list {
+  list-style-type: disc;
+  margin-bottom: 40px;
+}
+
+.mold4-list-item {
+  font-size: 14px;
+  color: #707070;
+  font-weight: normal;
+  line-height: 1.7em;
+}
+
 /* DisplaySection.css */
 #display4 {
   letter-spacing: 0.1em;
