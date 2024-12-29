@@ -1,6 +1,6 @@
 // components/Display.js
 import React from 'react';
-import final from './img/final.mp4';
+import final1 from './img/final1.mp4';
 
 const Display = () => {
   return (
@@ -11,10 +11,10 @@ const Display = () => {
         <div className="display4-container">
           <h2 className='display4-h2'>EFFECT DISPLAY</h2>
           <video 
-            src={final}
+            src={final1}
             controls 
             className="display4-video"
-            style={{width: '100%', marginTop: '20px'}}
+            style={{width: '50%', marginTop: '20px'}}
           >
             Your browser does not support the video tag.
           </video>
