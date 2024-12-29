@@ -7,6 +7,7 @@ import Research from './Research';
 import Quantitative from './Quantitative';
 import Prototyping from './Prototyping';
 import Display from './Display';
+import Mold from './Mold';
 import FutureVision from './FutureVision';
 import Footer from './Footer';
 
@@ -20,6 +21,7 @@ class Project4 extends React.Component {
         <Research />
         <Quantitative />
         <Prototyping />
+        <Mold />
         <Display />
         <FutureVision />
         <Footer />
