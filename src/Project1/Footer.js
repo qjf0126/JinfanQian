@@ -3,6 +3,13 @@ import MUSE from "./img/2024-MUSE-Design-Awards-Site-Bages-Silver.png";
 import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
+  const scrollToTop = () => {
+    const target = document.getElementById('background');
+    if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
     return (
       <section id="footer">
         <div className="footer-container">
@@ -19,6 +26,15 @@ const Footer = () => {
             </NavLink>
           </h2>
           <img src={MUSE} style={{width:'140px'}}></img>
+        </div>
+        <div className="footer-container" style={{justifyContent:'space-between'}}>
+          <NavLink to="/project4" className="winnerpage">
+            <p style={{ margin: '4px 4px 4px 0px' }}>Next Project: InfoWhisper</p>
+            <p style={{ margin: '4px 0px 4px 4px' }}>→</p>
+          </NavLink>
+          <button className='nextProj' onClick={scrollToTop} >
+            Back to Top
+          </button>
         </div>
       </section>
     );
