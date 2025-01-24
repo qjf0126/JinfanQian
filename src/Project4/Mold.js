@@ -7,6 +7,7 @@ import step4 from "./img/step4.png";
 import step5 from "./img/step5.png";
 import step6 from "./img/step6.png";
 import step7 from "./img/step7.png";
+import step8 from "./img/step8.png";
 
 const Mold = () => {
   return (
@@ -46,7 +47,11 @@ const Mold = () => {
             </div>
             <div style={{width: '20%'}}>
               <img src={step7} style={{marginBottom: '10px'}} alt=""/>
-              <p style={{fontSize: '12px', color: '#666', textAlign: 'center'}}>7. Insert air tube and LED strip</p>
+              <p style={{fontSize: '12px', color: '#666', textAlign: 'center'}}>7. Remove the silicone airbag from the mold</p>
+            </div>
+            <div style={{width: '20%'}}>
+              <img src={step8} style={{marginBottom: '10px'}} alt=""/>
+              <p style={{fontSize: '12px', color: '#666', textAlign: 'center'}}>8. Insert air tube and LED strip</p>
             </div>
           </div>
         </div>
