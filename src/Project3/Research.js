@@ -31,12 +31,12 @@ const Research = () => {
         <h2 className="research3-header">What did consumers do?</h2>
         <p className="research3-paragraph">I conducted interviews to explore people's habits and perspectives on food delivery waste and recycling.</p>
         <ul className="research3-list" style={{margin:'20px 0px 40px 0px'}}>
-          <li className="research3-paragraph">Ordering delivery is not the last resort. Participants often order takeout because they don't want to go out or too lazy to cook, etc, instead of being left with no choice.</li>
+          <li className="research3-paragraph">Ordering delivery is not the last resort. Participants often order food delivery because they don't want to go out or too lazy to cook, etc, instead of being left with no choice.</li>
           <li className="research3-paragraph">People are not aware of the option to decline utensils or do not have access to portable utensils in certain circumstances such as in the office.</li>
           <li className="research3-paragraph">People lack the awareness or the means to clean and recycle food delivery containers.</li>
           <li className="research3-paragraph">People are not aware of the plastic waste problem and the consequences.</li>
         </ul>
-        <p className="research3-paragraph">Whether ordering takeout or not, opting into “no utensil” or not, cleaning and recycling food packages and utensils or not are personal choices. Because people are not aware that they are making choices and the impacts of their choices, they choose actions that harm the environment.</p>
+        <p className="research3-paragraph">Whether ordering food delivery or not, opting into “no utensil” or not, cleaning and recycling food packages and utensils or not are personal choices. Because people are not aware that they are making choices and the impacts of their choices, they choose actions that harm the environment.</p>
         <p className="HMW">
           💡 How might we raise the awareness of food delivery waste and encourage people to make eco-friendly decisions when ordering and disposing of food deliveries?
         </p>
