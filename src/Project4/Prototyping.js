@@ -29,12 +29,12 @@ const Prototyping = () => {
                   </div>
                 </div>
                 <p className="prototyping4-paragraph">
-                  After 3D printing, I found the prototype couldn't achieve a good inflation effect, so I made the following improvements:
+                  After 3D printing, I found that the prototype didn't achieve the desired inflation effect, so I made the following improvements:
                 </p>
                 <ul className="prototyping4-list">
-                  <li className="prototyping4-list-item">Used silicone molding with softer silicone material.</li>
-                  <li className="prototyping4-list-item">Reduced the number of airbags and resized it to fit the phone.</li>
-                  <li className="prototyping4-list-item">Added individual inflation ports for independent control.</li>
+                  <li className="prototyping4-list-item">Use silicone molding with softer silicone material.</li>
+                  <li className="prototyping4-list-item">Reduce the number of airbags and resized it to fit the phone.</li>
+                  <li className="prototyping4-list-item">Adde individual inflation ports for independent control.</li>
                 </ul>
               </div>
               <div style={{marginLeft: '30px', width: '50%'}}>
