@@ -399,6 +399,48 @@ img {
   object-fit: cover;
 }
 
+/* 添加摇晃动画 */
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.bubble-container {
+  position: absolute;
+  top: 200px;  /* 根据需要调整 */
+  right: 450px; /* 根据需要调整 */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.bubble-container:hover {
+  animation: shake 0.5s ease-in-out; /* 添加摇晃动画 */
+  cursor: pointer; /* 鼠标变成手指状 */
+}
+
+figure:hover .bubble-container {
+  opacity: 1;
+}
+
+.bubble {
+  width: 200px !important; /* 调整气泡大小 */
+  height: 139px !important;
+}
+
 .divider {
   text-align: center;
 }
@@ -450,7 +492,7 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 20px 0px 20px 0px;
+  margin: 10px 0px 10px 0px;
 }
 
 .Project-sidebar {
