@@ -3,6 +3,7 @@ import { NavBar } from "./NavBar";
 import { Footer } from "./Footer";
 import portrait1 from "../assets/img/portrait1.png"
 import { Envelope } from 'react-bootstrap-icons';
+import { Camera } from 'react-bootstrap-icons';
 
 const About = () => {
   return (
@@ -15,6 +16,12 @@ const About = () => {
             <Envelope className="me-2" />
             <span>qjf20030126@outlook.com</span>
           </div>
+          <a href="https://youtu.be/hrf2f6G8EyE" target="_blank" rel="noopener noreferrer">
+            <p style={{color: '#3C8CDD'}}>
+              <Camera style={{ marginRight: '8px', fontSize: '19px' }} /> {/* 调整图标大小和间距 */}
+              Watch my video essay
+            </p>
+          </a>
         </div>
         <div className='aboutText'>
           <p style={{lineHeight: '1.5em'}}>I am Jinfan Qian, an interdisciplinary designer and creative technologist with a focus on merging art, technology, and environmental awareness.</p>

@@ -1,8 +1,12 @@
-import { Container } from "react-bootstrap";
+import { Container } from "react-bootstrap"; 
 import 'animate.css';
 import portrait from '../assets/img/portrait2.png';
+import bubble from '../assets/img/bubble.png';
 
 export const Banner = () => {
+  const handleBubbleClick = () => {
+    window.open("https://youtu.be/hrf2f6G8EyE", "_blank");
+  };
 
   return (
     <section className="banner" id="home">
@@ -14,10 +18,15 @@ export const Banner = () => {
         </div>
         <div>
           <figure>
-            <img src={portrait} />
+            <div className="portrait">
+              <img src={portrait} alt="Jinfan Qian" />
+            </div>
+            <div className="bubble-container" onClick={handleBubbleClick}>
+              <img src={bubble} className="bubble" alt="Bubble" />
+            </div>
           </figure>
         </div>
       </Container>
     </section>
-  )
-}
+  );
+};
