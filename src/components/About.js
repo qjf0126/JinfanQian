@@ -16,7 +16,7 @@ const About = () => {
             <Envelope className="me-2" />
             <span>qjf20030126@outlook.com</span>
           </div>
-          <a href="https://youtu.be/hrf2f6G8EyE" target="_blank" rel="noopener noreferrer">
+          <a href="https://youtu.be/EW_nVTt5MDs" target="_blank" rel="noopener noreferrer">
             <p style={{color: '#3C8CDD'}}>
               <Camera style={{ marginRight: '8px', fontSize: '19px' }} /> {/* 调整图标大小和间距 */}
               Watch my video essay

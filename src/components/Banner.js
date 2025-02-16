@@ -5,7 +5,7 @@ import bubble from '../assets/img/bubble.png';
 
 export const Banner = () => {
   const handleBubbleClick = () => {
-    window.open("https://youtu.be/hrf2f6G8EyE", "_blank");
+    window.open("https://youtu.be/EW_nVTt5MDs", "_blank");
   };
 
   return (
