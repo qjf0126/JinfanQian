@@ -148,13 +148,15 @@ export const Projects = () => {
           </div>
           <div className="card-container">
             <div className="image-container">
-              <NavLink to="/alipaystock" className='renderp1'>
-                <img src={Farmer}></img>
-              </NavLink>
+              <a href="https://youtu.be/tup-v-nIGFU" target="_blank" rel="noopener noreferrer" className='renderp1'>
+                <img src={Farmer} alt="Farmer"></img>
+              </a>
             </div>
             <div className="project-info">
               <h2 className="project-title">
-                <NavLink to="/alipaystock" className='linktoOthers'>New version of "The Farmer and the River God"</NavLink>
+                <a href="https://youtu.be/tup-v-nIGFU" target="_blank" rel="noopener noreferrer" className='linktoOthers'>
+                  New version of "The Farmer and the River God"
+                </a>
               </h2>
               <p className="project-subtitle">
                 A modern take on "The Farmer and the River God" that warns people about financial scams.
