@@ -293,7 +293,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
-  margin-top: 0;
+  margin: 0;
   padding: 160px 250px 100px 250px;
   background-position: top center;
   background-size: cover;
@@ -303,6 +303,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .bannercontainer {
   display: flex;
+  align-items: center;
+}
+
+.bannertext {
+  max-width: 856px;
 }
 
 .banner h1 {
@@ -490,14 +495,16 @@ figure:hover .bubble-container {
 
 .project {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
-  margin: 10px 0px 10px 0px;
+  margin: auto;
+  max-width: 1320px;
 }
 
 .Project-sidebar {
   padding: 80px 20px 80px 20px;
-  width: 50%;
+  width: 52%;
 }
 .Project-sidebar h1 {
   margin: 10px;
@@ -532,7 +539,7 @@ figure:hover .bubble-container {
 }
 
 .renderp1 {
-  width:48%; 
+  width: 48%;
   margin: 40px 0px 20px 0px;
 }
 
